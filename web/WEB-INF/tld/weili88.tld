@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee web-jsptaglibrary_2_0.xsd"
+        version="2.0">
+    <description/>
+    <display-name>weili88 tag</display-name>
+    <tlib-version>1.0</tlib-version>
+    <short-name>weili88</short-name>
+    <uri>http://tag.weili88.com</uri>
+
+    <tag>
+        <description>用户数据</description>
+        <display-name>userDataTag</display-name>
+        <name>userDataTag</name>
+        <tag-class>cn.taiqiu8.jsptag.UserDataTag</tag-class>
+        <body-content>JSP</body-content>
+        <attribute>
+            <name>configId</name>
+            <rtexprvalue>true</rtexprvalue>
+            <description><![CDATA[配置文件中配置项ID 即：<config id="1">]]></description>
+        </attribute>
+        <attribute>
+            <name>cache</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <description><![CDATA[是否使用缓存: true(默认):是 false:否]]></description>
+        </attribute>
+        <attribute>
+            <name>configFile</name>
+            <rtexprvalue>false</rtexprvalue>
+            <description><![CDATA[配置文件名]]></description>
+        </attribute>
+        <attribute>
+            <name>template</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <description><![CDATA[模板文件地址：根目录是：/tagTemplates]]></description>
+        </attribute>
+        <attribute>
+            <name>cacheTime</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <description><![CDATA[缓冲失效时间]]></description>
+        </attribute>
+        <attribute>
+            <name>admin</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <description><![CDATA[是否是管理员界面]]></description>
+        </attribute>
+    </tag>
+
+    <tag>
+        <description>用户数据</description>
+        <display-name>dictionaryListTag</display-name>
+        <name>dictionaryListTag</name>
+        <tag-class>cn.taiqiu8.jsptag.DictionaryListTag</tag-class>
+        <body-content>JSP</body-content>
+        <attribute>
+            <name>configId</name>
+            <rtexprvalue>true</rtexprvalue>
+            <description><![CDATA[配置文件中配置项ID 即：<config id="1">]]></description>
+        </attribute>
+        <attribute>
+            <name>cache</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <description><![CDATA[是否使用缓存: true(默认):是 false:否]]></description>
+        </attribute>
+        <attribute>
+            <name>configFile</name>
+            <rtexprvalue>false</rtexprvalue>
+            <description><![CDATA[配置文件名]]></description>
+        </attribute>
+        <attribute>
+            <name>template</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <description><![CDATA[模板文件地址：根目录是：/tagTemplates]]></description>
+        </attribute>
+        <attribute>
+            <name>cacheTime</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <description><![CDATA[缓冲失效时间]]></description>
+        </attribute>
+        <attribute>
+            <name>type</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <description><![CDATA[type]]></description>
+        </attribute>
+        <attribute>
+            <name>name</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <description><![CDATA[name]]></description>
+        </attribute>
+    </tag>
+
+</taglib>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee web-jsptaglibrary_2_0.xsd"
+        version="2.0">
+    <description/>
+    <display-name>common tag</display-name>
+    <tlib-version>2.4</tlib-version>
+    <short-name>commonTag</short-name>
+    <uri>http://www.xiaoshuocity.com/commonTag</uri>
+    <description>通用标签</description>
+    <tag>
+        <name>page</name>
+        <description>分页标签</description>
+        <tag-class>base.jsptag.common.PageTag</tag-class>
+        <body-content>jsp</body-content>
+        <attribute>
+            <name>pageBean</name>
+            <rtexprvalue>true</rtexprvalue>
+            <description><![CDATA[pageBean]]></description>
+        </attribute>
+        <attribute>
+            <name>limit</name>
+            <rtexprvalue>true</rtexprvalue>
+            <description><![CDATA[显示多少个页卡]]></description>
+        </attribute>
+        <attribute>
+            <name>target</name>
+            <rtexprvalue>true</rtexprvalue>
+            <description><![CDATA[在哪个窗口打开]]></description>
+        </attribute>
+        <attribute>
+            <name>anchor</name>
+            <rtexprvalue>true</rtexprvalue>
+            <description><![CDATA[锚点名称]]></description>
+        </attribute>
+        <attribute>
+            <name>urlString</name>
+            <rtexprvalue>true</rtexprvalue>
+            <description><![CDATA[地址栏参数]]></description>
+        </attribute>
+        <attribute>
+            <name>rel</name>
+            <rtexprvalue>true</rtexprvalue>
+            <description><![CDATA[rel]]></description>
+        </attribute>
+    </tag>
+</taglib>

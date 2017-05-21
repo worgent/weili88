@@ -1,0 +1,119 @@
+.pane_tl{width:80px;text-align:right; padding-right:10px;}
+.reg_title {border-bottom:#CCCCCC 1px solid;font-weight:bold;padding:0 0 10px 10px;margin:15px 55px 0 55px;font-size:14px;color:#FF6600;}
+.reg_inp {border:#7F9DB9 1px solid;padding:3px 0 3px 0;}
+
+.pane_tc input[type="text"],.pane_tc2 input[type="text"]{background-color: #fff;border: 1px solid #ccc;-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);-webkit-transition: border linear .2s,box-shadow linear .2s;-moz-transition: border linear .2s,box-shadow linear .2s;-o-transition: border linear .2s,box-shadow linear .2s;transition: border linear .2s,box-shadow linear .2s;}
+.pane_tc{ width:600px;}
+.pane_tc input[type="text"],.pane_tc input[type="password"],.pane_tc2 input[type="text"],.pane_tc2 input[type="password"]
+{display: inline-block;height: 20px; width:220px;padding: 4px 6px;font-size: 14px;line-height: 20px;color: #555;vertical-align: middle;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;}
+.pane_tc input[type="text"],.pane_tc input[type="password"]{width:350px;}
+.pane_tc2 input[type="text"],.pane_tc2 input[type="password"]{width:100px;}
+.pane_tr .panetip{ position:relative; z-index:100; width:230px; font-size:12px; height:30px;}
+/*.pane_tr span{ padding-left:15px;}*/
+.pane_tr .panetip span {width:400px;margin: 0px;padding: 6px 6px;display: inline;color: #666;line-height: 20px;}
+.tips {position:absolute; left:0px; top:0px;z-index:1000;width:300px;margin: 0 0 0 5px;padding: 6px 10px;display: inline;border: 1px solid #edd9a5;background: #fffce9;color: #666;line-height: 20px;}
+.tips div{position: absolute;left: -7px;top: 8px;width: 7px;height: 11px;background: url(http://www.weili88.cn/member/image/icon_p.gif);font-size:1px;line-height: 1px;}
+
+.usernamediv{ position:relative;}
+.usernamediv span{ position:absolute; right:6px; top:5px; width:20px; height:20px; background: url(new/rand.gif) no-repeat; cursor:pointer; display:none;}
+  .tb-register{position: relative;z-index: 10; width:1200px; margin:0 auto;}
+  .register {color: #666;border:1px solid #d7d6d6;}
+  .register-switch {position: absolute;top: 0;right: 0;border-width: 14px;border-color: #bdbdbd #bdbdbd transparent transparent;
+  border-style: solid solid dashed dashed;z-index: 10;}
+  .register-topbar {z-index: 4;background-color: #f5f4f4;
+  border-bottom: 1px solid #e4e4e4;clear: both;position: relative; height:36px;line-height:36px;}
+  .register-pos { padding-left:10px;}
+  .register-content{ text-align:center;}
+  .tb-leftbox{border-top: 5px solid #232b38;}
+  
+  .register_left{ float:left; width:575px; padding-left:20px;}
+  .register_right{background:#FAFAFA;padding:15px;line-height:24px; float:right; width:360px;}
+  .register_company{ float:left;}
+  .register_user{ float:right;}
+  .combox .leftbox{ float:left; width:280px; border:1px solid #ffb9a8; background:#fff;}
+  .combox .leftbox .gobtn{ margin:10px auto;}
+  .combox .rightimg{ float:left; width:10px; height:98px; }
+  .boxlist{ width:280px; padding:5px 0px 10px;}
+  .boxlist li{ width:255px; height:30px; line-height:30px;  text-align:left; padding-left:21px; border-bottom:1px dashed #ddd;}
+  .boxlistb{ width:280px; padding:5px 0px 10px;}
+  .boxlistb li{ width:255px; height:24px; line-height:24px; text-align:left; padding-left:21px; border-bottom:1px dashed #ddd;}
+   .register_right .cwq_tell{float: left; padding:0px;}
+   .nav-content tr{ height:40px; line-height:40px;}
+
+
+table.why{width:998px;margin:0 auto;border-collapse: collapse;border-spacing: 0;}
+table.why tr td{color:#3e3a39;font-size:13px;text-align:center;border:1px solid #aaabac;}
+table.why tr td p{ padding:10px; text-indent:2em; text-align:left;}
+table.why .noborder{border:0;}
+.paper_why{ height:40px; line-height:40px; overflow:hidden; text-align:center; font-size:18px; font-weight:bold; color:#fff;}
+.whyico{ width:331px;background:url(http://www.weili88.cn/skin/cwq_redskin/newimages/paper_why.png) no-repeat center top;}
+.whyico2{ width:330px;background:url(http://www.weili88.cn/skin/cwq_redskin/newimages/paper_why2.png) no-repeat center top;}
+a.red,.red{ color:#f00;}
+.cont_tips{position:absolute; right:60px;top:150px; z-index:99; width:420px; height:200px; background:#fff; border:1px solid #dedede;}
+.cont_tips b{ display:block;background:url('/img/btn.gif') no-repeat;border:none;width:80px;height:26px; font-size:12px; color:#fff;vertical-align:middle;text-align:center;cursor:pointer;line-height:26px;padding-bottom:2px !important;}
+.cont_tips .dem{position:absolute; left:-11px;top:-1px; z-index:99; width:10px;height:242px; background:#fff;}
+.register_right span,.cont_tips span{ line-height:26px;}
+.register_right span a.b,.cont_tips span a.b{ line-height:16px; padding:5px; background:#700000; color:#fff; margin-left:5px;}
+.cont_tips:hover{border-color: #f40;}
+.reg_prefer{ background:url(/img/reg_prefer.jpg) no-repeat 15px 0px; height:150px; overflow:hidden; padding:0px 10px;}
+.reg_prefer_ri{ float:right; width:260px; line-height:34px; padding:20px 0px 0px 0px;overflow:hidden;}
+
+.reg_btn {
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 26px;
+    width: 230px;
+    height: 50px;
+    line-height: 50px;
+    background: #D50123;
+    color: #FFF;
+}
+
+.u-check {
+    color: #949494;
+    line-height: 14px;
+    display: block;
+    padding: 0px 0px 20px 180px;
+}
+
+.u-check input {
+    margin-right: .5em;
+    vertical-align: top;
+    _vertical-align: 0;
+}
+.cwq_tmember {
+font-size: 12px;
+}
+
+.cwq_tmember span {
+width: 260px;
+font-weight: bold;
+color: #700000;
+padding: 0px;
+display: block;
+float: left;
+}
+
+.cwq_tmember span b {
+font-size: 14px;
+color: #333;
+}
+
+.cwq_tmember_img {
+width: 95px;
+padding: 0px;
+display: block;
+float: left;
+}
+
+.cwq_tmember_phone {
+width: 170px;
+padding: 0px;
+display: block;
+float: left;
+padding-left: 5px;
+font-weight: bold;
+color: #700000;
+}
+

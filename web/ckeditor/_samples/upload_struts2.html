@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+Copyright (c) 2003-2010, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.html or http://ckeditor.com/license
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>strtus2+ckeditor 文件上传 5</title>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+    <script type="text/javascript" src="/ckeditor/ckeditor.js"></script>
+    <!--<script src="sample.js" type="text/javascript"></script>-->
+    <!--<link href="sample.css" rel="stylesheet" type="text/css"/>-->
+</head>
+<body>
+
+<form action="sample_posteddata.php" method="post">
+    <textarea cols="60" id="editor1" name="editor1" rows="60">
+        内容23....
+    </textarea>
+    <script type="text/javascript">
+        CKEDITOR.replace('editor1', { });
+
+        //var editor = CKEDITOR.replace('editor1');
+        //CKFinder.SetupCKEditor(editor, '/ckfinder/');
+    </script>
+    <input type="submit" value="Submit"/>
+</form>
+</body>
+</html>

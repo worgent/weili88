@@ -1,0 +1,32 @@
+*,html{margin:0px;padding:0px;}
+body{background:#f1efe2;font-size:12px;}
+
+#login{background:url(/login/img/loginbox.jpg) no-repeat;width:631px;height:304px;padding:10px 10px 0px 10px;position:absolute;left:50%;top:50%;margin-left:-315px;margin-top:-152px;color:#333;}
+#loginhead{height:80px;background:url(/login/img/logo.png) no-repeat left;}
+#loginbox{padding:0px 0px 10px 0px;height:199px;}
+#loginbox .tablebox{width:300px;height:120px;margin:0px auto;padding-top:40px;}
+#loginbox .tablebox a{color:#6699FF;}
+#loginbox .tablebox tr{height:30px;}
+
+#warp{background:url(/login/img/bodybg.jpg) repeat-y center;}
+#head{background:url(/login/img/headbg.jpg) no-repeat center top;height:108px;}
+#headbox{width:990px;margin:0px auto;height:108px;}
+--#headbox{width:1500px;margin:0px auto;height:108px;}
+#headbox .headlogo{height:81px;background:url(/login/img/logo.png) no-repeat left top;margin-left:10px;}
+#headbox .playerinfo{height:27px;line-height:27px;padding:0px 10px;text-align:right;}
+
+#main{width:990px;margin:0px auto;padding-top:10px;}
+--#main{width:1500px;margin:0px auto;padding-top:10px;}
+#sidebar{min-height:660px;height:auto !important;height:660px;width:182px;float:left;padding:0px 11px;}
+#sidebar .sidehead{background:url(/login/img/sidebarhead.jpg) no-repeat;height:24px;line-height:24px;color:#fff;padding-left:20px;font-weight:bold;}
+#sidebar .nav{border:1px solid #ccc;line-height:2;padding:10px 0px;background:#F8F8F8;}
+#sidebar .nav ul,li{list-style:none;}
+#sidebar .nav .close{background:url(/login/img/arrow_r.gif) no-repeat left 10px;padding-left:9px;}
+#sidebar .nav .open{background:url(/login/img/arrow_d.gif) no-repeat left 10px;padding-left:9px;}
+#content{width:775px;float:left;}
+--#content{width:1250px;float:left;}
+#content1{float:left;}
+.loginout{border:1px solid #cddff5;background:#f3f8fd;padding:10px;margin-top:10px;margin-bottom: 50px;}
+
+#foot{background:url(/login/img/footbg.jpg) no-repeat center top;height:60px;clear:both;}
+#footbox{width:950px;margin:0px auto;height:40px;padding:20px 20px 0px 20px;text-align:right;}

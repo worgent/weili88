@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mvc="http://www.springframework.org/schema/mvc" 
+
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+			http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/aop
+            http://www.springframework.org/schema/aop/spring-aop.xsd 
+            http://www.springframework.org/schema/tx
+            http://www.springframework.org/schema/tx/spring-tx.xsd 
+            http://www.springframework.org/schema/context 
+            http://www.springframework.org/schema/context/spring-context.xsd
+            http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd">
+	
+	<!-- 对web包中的所有类进行扫描，以完成Bean创建和自动依赖注入的功能 -->
+	<context:component-scan base-package="cn.taiqiu8.action" />
+	
+	<!-- 对模型视图名称的解析，即在模型视图名称添加前后缀 -->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver"
+        p:prefix="/" p:suffix=".jsp"/>
+
+		
+   <!-- 注解请求映射  -->  
+	<bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping">          
+		<property name="order" value="2" />    
+	</bean>     
+	<bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter">  
+	    <property name="order" value="2" />    
+		 <property name="messageConverters">    
+	        <list>    
+	            <ref bean="jackson_hmc" />    
+	        </list>    
+	    </property>  
+	</bean>   
+	<bean id="jackson_hmc" class="org.springframework.http.converter.json.MappingJacksonHttpMessageConverter" />
+	<!-- 配置静态资源，直接映射到对应的文件夹，不被DispatcherServlet处理，3.04新增功能，需要重新设置spring-mvc-3.0.xsd -->
+	<mvc:resources mapping="/img/**" location="/img/" order="1"/>
+	<mvc:resources mapping="/js/**" location="/js/" order="2"/>
+	<mvc:resources mapping="/css/**" location="/css/" order="3"/>
+    <mvc:resources mapping="/ckeditor/**" location="/ckeditor/" order="4"/>
+    <mvc:resources mapping="/ckfinder/**" location="/ckfinder/" order="5"/>
+    <!--<mvc:resources mapping="/**" location="/" order="4"/>-->
+
+</beans>

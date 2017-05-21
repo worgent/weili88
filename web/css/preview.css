@@ -1,0 +1,78 @@
+body, form, dl, dt, dd, h1, h2, h3, h4, h5, h6, ul, ol, p, th, td, fieldset {
+    margin: 0;
+    padding: 0
+}
+
+body, table, th, td {
+    font: 12px Arial, Helvetica, sans-serif, '宋体'
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background: #fff;
+    border: 1px solid #cdcdcd;
+    border-width: 1px 0;
+
+}
+
+caption {
+    font: 14px Arial, Helvetica, sans-serif, '宋体';
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.sonTable td {
+    text-align: center;
+}
+
+th {
+    color: #666;
+    background: #f0f2f6;
+    /*font-weight: bold;*/
+    text-align: center;
+    padding: 6px 9px;
+}
+
+tr {
+    /*border: 1px solid #ddd;*/
+}
+
+td {
+    color: #666;
+    border-bottom: 1px solid #c4c4c4;
+    border-left: 1px solid #c4c4c4;
+    text-align: center;
+    padding: 6px 0px;
+    margin: 0 5px
+}
+
+td a {
+    color: #666;
+}
+
+/*add by liuwentao*/
+.infoTable tr {
+    height: 15px;
+}
+
+.infoTable tr th {
+    padding: 8px 9px;
+    text-align: right;
+    width: 70px;
+}
+
+.infoTable td {
+    padding: 5px 9px;
+    padding-left: 10px;
+    text-align: left;
+}
+
+table caption{
+    text-align: left;
+    padding-left: 10px;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}

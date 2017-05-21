@@ -1,0 +1,4130 @@
+.ui-tpllist-itemlist {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+.ui-tpllist-itemlist li {
+    margin: 0;
+    padding: 11px 10px 11px 18px;
+    height: 14px
+}
+
+.ui-tpllist-itemlist li q {
+    display: none;
+    float: right;
+    color: #0065cd
+}
+
+.ui-tpllist-itemlist li span {
+    cursor: pointer;
+    float: left
+}
+
+.ui-tpllist-itemlist li.hover {
+    background: #f6f6fb
+}
+
+.ui-tpllist-itemlist li.hover q {
+    display: block
+}
+
+.ui-tpllist-itemlist li.selected {
+    color: #FFF;
+    font-weight: bold;
+    background: #78849c
+}
+
+.ui-tpllist-itemlist li.selected q {
+    color: #FFF;
+    font-weight: normal
+}
+
+.ui-tpllist-itemlist-unfold {
+    overflow: auto
+}
+
+.ui-tpllist-noData {
+    font-size: 14px;
+    padding: 6px 10px;
+    color: #999;
+    display: none
+}
+
+.ui-tpllist-sort {
+    padding: 4px;
+    background: #f3f3f3;
+    color: #666;
+    display: none
+}
+
+.ui-tpllist-sort table {
+    border-collapse: collapse
+}
+
+.ui-tpllist-extend {
+    height: 18px;
+    margin: 0;
+    padding: 6px 10px;
+    text-align: right;
+    border-top: solid 1px #f0f0f0
+}
+
+.skin-button-btn1 {
+    width: 56px;
+    height: 22px;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+    border: 0;
+    border-radius: 0;
+    outline: 0;
+    background: url(/un-web-lib/css/img/templateBtn.jpg) no-repeat 0 0
+}
+
+.skin-button-btn1-disabled {
+    background: url(/un-web-lib/css/img/templateBtn.jpg) no-repeat 0 -22px;
+    color: #000
+}
+
+.skin-button-btn2 {
+    width: 55px;
+    height: 22px;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+    border: 0;
+    border-radius: 0;
+    outline: 0;
+    background: url(/un-web-lib/css/img/templateBtn.jpg) no-repeat -57px 0
+}
+
+.skin-button-btn2-disabled {
+    background: url(/un-web-lib/css/img/templateBtn.jpg) no-repeat -57px -22px;
+    color: #000
+}
+
+.skin-button-btn1::-moz-focus-inner, .skin-button-btn2::-moz-focus-inner {
+    border: 0
+}
+
+.ui-displayselect {
+    display: inline-block;
+    position: relative;
+    zoom: 1;
+    height: 20px;
+    overflow: visible;
+    border: 1px solid #c4c4c4;
+    background: #fff
+}
+
+.ui-displayselect .display-text {
+    display: inline-block;
+    width: 128px;
+    height: 20px;
+    padding: 0 5px;
+    background: #fff;
+    cursor: pointer
+}
+
+.ui-displayselect .layer-wrap {
+    display: none;
+    position: absolute;
+    top: 20px;
+    left: -1px
+}
+
+.ui-displayselect.expand-layer .layer-wrap {
+    display: block
+}
+
+.ui-displayselect.expand-layer .ui-select-arrow {
+    background-position: 0 -89px
+}
+
+.ui-displayselect ul {
+    list-style: none
+}
+
+.ui-displayselect .type-list {
+    position: absolute;
+    left: 0;
+    width: 155px;
+    border: 1px solid #a8adb6;
+    border-width: 1px 0 0 1px;
+    background: #fff
+}
+
+.ui-displayselect .type-list .stable li {
+    cursor: pointer
+}
+
+.ui-displayselect .type-list .variable .arrow-icon {
+    float: right;
+    width: 16px;
+    height: 16px;
+    background: url(/un-web-lib/css/img/mix-icon.gif) no-repeat 0 -680px
+}
+
+.ui-displayselect .type-list li {
+    padding: 5px 10px;
+    border: 1px solid #a8adb6;
+    border-width: 0 1px 1px 0;
+    cursor: default
+}
+
+.ui-displayselect .type-list li.type-hover {
+    position: relative;
+    zoom: 1;
+    top: -1px;
+    background: #78849c;
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid #666;
+    margin: 0 0 -1px -1px;
+    _margin-bottom: 0
+}
+
+.ui-displayselect .type-list ul.variable li.type-hover {
+    border-right: 0
+}
+
+.ui-displayselect .content-wrap {
+    display: none;
+    position: absolute;
+    left: 155px;
+    top: 0;
+    width: 300px;
+    padding: 5px;
+    border: 1px solid #666;
+    background: #78849c;
+    box-shadow: 2px 2px 5px #ddd;
+    -moz-box-shadow: 2px 2px 5px #ddd;
+    -webkit-box-shadow: 2px 2px 5px #ddd
+}
+
+.ui-displayselect .show-sub .content-wrap {
+    display: block
+}
+
+.ui-displayselect .show-sub .type-list li {
+    border-right-color: #666
+}
+
+.ui-displayselect .content-wrap .list-wrap {
+    display: none;
+    position: relative;
+    zoom: 1
+}
+
+.ui-displayselect .content-wrap .list-wrap.show-list {
+    display: block
+}
+
+#ReportQueryForm .ui-displayselect .content-wrap label {
+    float: none
+}
+
+.ui-displayselect .list-ul-wrap {
+    height: 156px;
+    overflow: hidden;
+    overflow-y: auto;
+    border: 1px solid #666;
+    background: #fff
+}
+
+.ui-displayselect .content-wrap p.operation {
+    margin-top: 5px
+}
+
+.ui-displayselect .content-wrap li {
+    border-bottom: 1px solid #a8adb6
+}
+
+.ui-displayselect .content-wrap li.list-hover {
+    background: #e7f0f9
+}
+
+.ui-displayselect .content-wrap li.adpos-disabled {
+    color: #999
+}
+
+.ui-displayselect .content-wrap li .others-item {
+    color: #999
+}
+
+.ui-displayselect .content-wrap li span.keyword {
+    color: #f00
+}
+
+.ui-displayselect .content-wrap li li {
+    padding-left: 10px;
+    border-top: 1px solid #ddd;
+    border-bottom: 0
+}
+
+.ui-displayselect p.check-all {
+    margin: 0 0 3px 1px;
+    color: #fff
+}
+
+.ui-displayselect p.search-bar {
+    position: absolute;
+    right: 0;
+    top: -1px
+}
+
+.ui-displayselect p.search-bar .button-clear {
+    display: none;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    width: 18px;
+    height: 18px;
+    overflow: hidden;
+    padding: 0;
+    border-color: #fff;
+    background: 0
+}
+
+.ui-displayselect p.search-bar .ui-button-hover {
+    border: 1px solid #888f9b;
+    background: url(/un-web-lib/css/img/esui.png) repeat-x
+}
+
+.ui-displayselect p.search-bar .button-clear .icon-clear {
+    position: relative;
+    zoom: 1;
+    top: 1px;
+    width: 16px;
+    height: 16px;
+    background: url(/un-web-lib/css/img/mix-icon.gif) no-repeat 0 -665px
+}
+
+.ui-displayselect p.search-bar .ui-button-press .icon-clear {
+    left: 1px;
+    top: 2px
+}
+
+.ui-displayselect p.search-bar i.icon-search {
+    display: block;
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    width: 16px;
+    height: 16px;
+    background: url(/un-web-lib/css/img/mix-icon.gif) no-repeat 0 -648px
+}
+
+.ui-displayselect p.search-bar input.ui-text {
+    width: 180px;
+    padding-right: 20px;
+    font-size: 12px
+}
+
+.ui-displayselect p.search-bar.searching i.icon-search {
+    display: none
+}
+
+.ui-displayselect p.search-bar.searching .button-clear {
+    display: inline-block
+}
+
+.ui-multiselect {
+    height: 20px;
+    font-size: 12px;
+    background: #fff;
+    border: 1px solid #a8adb6;
+    font-family: STHeiti, SimSun;
+    line-height: 21px;
+    cursor: pointer;
+    display: inline-block;
+    *display: inline;
+    zoom: 1
+}
+
+.ui-multiselect-hover, .ui-multiselect-active {
+    border: 1px solid #888f9b
+}
+
+.ui-multiselect-arrow {
+    float: right;
+    font-size: 1px;
+    height: 20px;
+    width: 16px;
+    cursor: pointer;
+    background: url(/un-web-lib/css/img/esui.png) 0 -108px
+}
+
+.ui-multiselect-active .ui-multiselect-arrow {
+    background-position: 0 -89px
+}
+
+.ui-multiselect-disabled {
+    background: #f6f6f6
+}
+
+.ui-multiselect-text {
+    padding: 0 2px;
+    text-indent: 3px;
+    text-align: left;
+    color: #333;
+    cursor: pointer;
+    overflow: hidden;
+    float: left;
+    height: 20px
+}
+
+.ui-multiselect-text-def {
+    color: #ccc
+}
+
+.ui-multiselect-layer {
+    text-align: left;
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #a8adb6;
+    font-size: 12px;
+    font-family: STHeiti, SimSun;
+    overflow-y: auto;
+    overflow-x: hidden;
+    box-shadow: 0 2px 5px #d7d7d7;
+    overflow-x: hidden;
+    overflow-y: auto
+}
+
+.ui-multiselect-layer-wrap .operation {
+    text-align: center
+}
+
+.ui-multiselect-item {
+    padding: 1px 5px;
+    line-height: 19px;
+    height: 18px;
+    color: #666;
+    background: #fff;
+    cursor: pointer;
+    overflow: hidden;
+    _height: auto
+}
+
+.ui-multiselect-item label {
+    display: block
+}
+
+.ui-multiselect-item-hover {
+    background: #edf1fa
+}
+
+.ui-multiselect-item-disabled {
+    color: #ccc;
+    cursor: default
+}
+
+.ui-multiselect-item-selected {
+    background: #e4eaf9;
+    color: #333
+}
+
+.ui-multiselect-list-button {
+    background: linear-gradient(#fff, #f4f4f4) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid #a8adb6;
+    border-radius: 2px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    height: auto;
+    line-height: 16px;
+    overflow: visible;
+    padding: 3px 12px;
+    margin: 10px 0 5px
+}
+
+.skin-select-menu {
+    background: url(/un-web-lib/css/img/esui.png);
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -o-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px
+}
+
+.skin-select-menu-arrow {
+    width: 15px;
+    background: url(/un-web-lib/css/img/esui.png) 0 -146px
+}
+
+.skin-select-menu-hover, .skin-select-menu-active {
+    border: 1px solid #888f9b
+}
+
+.skin-select-menu-active {
+    background: url(/un-web-lib/css/img/esui.png) repeat-x 0 -20px
+}
+
+.skin-select-menu-active .ui-multiselect-text {
+    border-left: 1px solid #fdb345;
+    background: url(/un-web-lib/css/img/esui.png) repeat-x 0 -20px;
+    padding-left: 1px
+}
+
+.skin-select-menu-active .ui-multiselect-arrow {
+    border-width: 1px 1px 1px 0;
+    border-style: solid;
+    border-color: #fdb345;
+    background: url(/un-web-lib/css/img/esui.png) repeat-x 0 -128px;
+    width: 15px;
+    height: 18px
+}
+
+.skin-select-menu2 {
+    background: url(/un-web-lib/css/img/esui.png);
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -o-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px
+}
+
+.skin-select-menu2-active {
+    position: relative;
+    z-index: 100000;
+    border-radius: 2px 0;
+    -webkit-border-radius: 2px 0;
+    -o-border-radius: 2px 0;
+    -moz-border-radius: 2px 0;
+    -ms-border-radius: 2px 0
+}
+
+.skin-select-menu2-text {
+    padding: 0;
+    text-indent: 2px
+}
+
+.skin-select-menu2-arrow {
+    width: 17px;
+    background: url(/un-web-lib/css/img/esui.png) -37px -144px
+}
+
+.skin-select-menu2-hover {
+    border: 1px solid #888f9b
+}
+
+.skin-select-menu2-active {
+    border: 1px solid #a8adb6
+}
+
+.skin-select-menu2-active .ui-multiselect-arrow {
+    background: url(/un-web-lib/css/img/esui.png) repeat-x -15px -144px;
+    height: 21px;
+    width: 19px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    float: none
+}
+
+.skin-select-button {
+    background: url(/un-web-lib/css/img/esui.png) 0 -166px;
+    border: 1px solid #bdbdbd;
+    width: 15px;
+    height: 14px;
+    font-size: 1px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -o-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px
+}
+
+.skin-select-button-text, .skin-select-button-arrow {
+    display: none
+}
+
+.skin-select-button-hover {
+    background: url(/un-web-lib/css/img/esui.png) -15px -166px;
+    border: 1px solid #888f9b
+}
+
+.skin-select-button-active {
+    background: url(/un-web-lib/css/img/esui.png) -30px -166px;
+    border: 1px solid #888f9b
+}
+
+.skin-select-largebutton {
+    background: url(/un-web-lib/css/img/esui.png) 0 -180px;
+    border: 1px solid #bdbdbd;
+    width: 20px;
+    height: 20px;
+    font-size: 1px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -o-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px
+}
+
+.skin-select-largebutton-text, .skin-select-largebutton-arrow {
+    display: none
+}
+
+.skin-select-largebutton-hover {
+    background: url(/un-web-lib/css/img/esui.png) -20px -180px;
+    border: 1px solid #888f9b
+}
+
+.skin-select-largebutton-active {
+    background: url(/un-web-lib/css/img/esui.png) -40px -180px;
+    border: 1px solid #888f9b
+}
+
+.ui-sumview {
+    width: 100%
+}
+
+.ui-sumview-table {
+    background: #FFF
+}
+
+.ui-sumview-table thead th {
+    text-align: left;
+    font-weight: normal;
+    padding: 12px 10px 2px 10px
+}
+
+.ui-sumview-table tbody td {
+    font-size: 24px;
+    font: 20px bold Arial, Helvetica, sans-serif;
+    padding: 2px 10px 6px 10px
+}
+
+.ui-sumview-table tfoot td {
+    padding: 4px 10px 10px 10px
+}
+
+.ui-sumview-table tfoot td span {
+    color: #999
+}
+
+.ui-undialog-body {
+    padding: 0 12px
+}
+
+.ui-undialog-body h3 {
+    padding: 12px 0
+}
+
+.ui-undialog-body .optBar {
+    margin: 8px
+}
+
+.ui-undialog-title {
+    line-height: 24px;
+    margin: 0 12px
+}
+
+#OverviewMain {
+    border: 0
+}
+
+#AccountMain .help {
+    margin-left: 5px
+}
+
+.hidden {
+    display: none
+}
+
+.opened, .passed, .running {
+    color: #6b2
+}
+
+.not-verified, .verifing, .pending {
+    color: #fa0
+}
+
+.not-opened, .rejected, .stoped {
+    color: #999
+}
+
+.websiteDeleteBtn {
+    padding-left: 10px
+}
+
+.cpro-apply, .dan-apply, .websiteModifyBtn {
+    padding-left: 10px
+}
+
+.account-content {
+    padding: 12px 0
+}
+
+#ValidateWarn {
+    position: relative;
+    background: #ffd8db;
+    color: #8d1d1c;
+    margin-bottom: 10px
+}
+
+#ValidateWarnCloseBtn {
+    position: absolute;
+    right: 20px;
+    top: 12px
+}
+
+#ValidateWarn .validate-wrap {
+    padding: 12px 20px;
+    line-height: 18px
+}
+
+#Ulic {
+    margin-top: 20px
+}
+
+#Ulic .licence {
+    padding-left: 20px;
+    font-weight: bold
+}
+
+#Ulic .no-licence {
+    padding: 0
+}
+
+#Ulic span.gold {
+    background: url("/un-web-lib/css/img/mix-icon.gif") no-repeat scroll 0 -32px transparent
+}
+
+#Ulic span.platinum {
+    background: url("/un-web-lib/css/img/mix-icon.gif") no-repeat scroll 0 -48px transparent
+}
+
+#Ulic span.diamond {
+    background: url("/un-web-lib/css/img/mix-icon.gif") no-repeat scroll 0 -64px transparent
+}
+
+#Ulic .availCents {
+    font-family: Arial;
+    color: #f80;
+    font-weight: bold
+}
+
+#Ulic .centsTitle {
+    padding-left: 30px;
+    color: #666
+}
+
+#Ulic .title {
+    color: #666
+}
+
+#Ulic a {
+    padding-left: 5px
+}
+
+#Ulic a.ulic-certifyName-link {
+    color: #666
+}
+
+a.ulic-certifyName-link:hover {
+    text-decoration: underline
+}
+
+.overview-username {
+    display: inline
+}
+
+.rnameAuthStatus {
+    display: inline-block;
+    width: 16px;
+    height: 13px;
+    background-image: url(/img/sprites.png);
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    margin: 0 4px
+}
+
+.rnameAuthStatus-notpassed {
+    background-position: 0 -145px
+}
+
+.rnameAuthStatus-passed {
+    background-position: 0 -158px
+}
+
+.realNameAuthBtn {
+    margin: 0 8px
+}
+
+.realNameAuth-needAuth {
+    color: #d66;
+    padding-right: 4px
+}
+
+.realNameAuth-dialog .ui-dialog-body {
+    text-align: center
+}
+
+.realNameAuth-dialog .ui-dialog-body button {
+    margin: 8px 8px 0 0
+}
+
+#OverviewMain .layout-main h3 {
+    border-bottom: 0
+}
+
+#OverviewOptimizeAdvice {
+    /*margin-top: 14px;*/
+    /*padding-top: 10px;*/
+    /*width:50%;*/
+    /*float:left;*/
+    /*border-top: 1px solid #f3f3f3*/
+}
+
+#OverviewOptimizeAdvice .ui-list li {
+    /*list-style: none;*/
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+#OverviewOptimizeAdvice .hint-number {
+    padding: 0 7px;
+    margin-left: 3px;
+    border-radius: 10px;
+    background: #c00;
+    font-weight: bold;
+    color: #fff
+}
+
+#OverviewOptimizeSwitch {
+    display: inline-block;
+    width: 130px
+}
+
+#OverviewOptimizeAdvice i.icon-fold {
+    float: right;
+    display: inline-block;
+    width: 15px;
+    height: 14px;
+    margin-left: 3px;
+    background: url(/img/sprites.png) no-repeat 0 -41px
+}
+
+#OverviewOptimizeAdvice.hidden-advice i.icon-fold {
+    background-position: 0 -56px
+}
+
+#OverviewOptimizeAdvice.hidden-advice div.content {
+    display: none
+}
+
+#shortcutSumReport {
+    border: 0;
+    border-collapse: collapse
+}
+
+#shortcutSumReport td {
+    width: 20%;
+    /*border: 1px solid #cdcdcd;*/
+    /*border-width: 1px 0 0 1px*/
+}
+
+.shortcutSumReport2 {
+    border: 0;
+    border-collapse: collapse
+}
+
+.shortcutSumReport2 td {
+    width: 10%;
+    /*border: 1px solid #cdcdcd;*/
+    /*border-width: 1px 0 0 1px*/
+}
+
+
+#shortcutSumReport td:first-child {
+    border-left: 0
+}
+
+#shortcutSumReport a {
+    display: block;
+    height: 40px;
+    padding: 12px;
+    color: #666;
+    cursor: pointer;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f4f4f4));
+    background: -moz-linear-gradient(top, #fff, #f4f4f4);
+    background-color: #fafafa
+}
+
+#shortcutSumReport a .lastDivideTime {
+    padding-left: 4px
+}
+
+#shortcutSumReport #dateType4 {
+    min-width: 160px
+}
+
+#shortcutSumReport a:hover {
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f0f0f0));
+    background: -moz-linear-gradient(top, #fff, #f0f0f0);
+    background-color: #f7f7f7
+}
+
+#shortcutSumReport a:active, #shortcutSumReport a.current, #shortcutSumReport a.current:hover {
+    color: #333;
+    background: #e8e9ed;
+    box-shadow: 0 2px 1px #d7d7d7 inset
+}
+
+#shortcutSumReport .title {
+    color: #333
+}
+
+#shortcutSumReport .totalSum {
+    color: #333;
+    vertical-align: bottom
+}
+
+#shortcutSumReport .totalSum-lighthigh {
+    color: #333;
+    font: 26px Arial
+}
+
+#FinancialInfoHead {
+    padding-bottom: 0
+}
+
+#PayLogContent {
+    position: relative;
+    border-top: 0
+}
+
+#InvoiceNoSubmit {
+    background: #f7f7f7;
+    border: 1px solid #f0f0f0;
+    padding: 12px;
+    position: absolute;
+    width: 295px;
+    border-radius: 2px
+}
+
+#InvoiceNoSubmit .hint {
+    margin: 6px
+}
+
+table tr.company td {
+    background: #f4f5f7
+}
+
+table.invoice-alert tr.company td {
+    background: none repeat scroll 0 0 #ffe0dd
+}
+
+table.invoice-alert td {
+    background: none repeat scroll 0 0 #fff8f4
+}
+
+#payRule .head {
+    padding-right: 10px
+}
+
+#payRule .instruction {
+    margin-top: 6px;
+    line-height: 18px;
+    padding-left: 20px;
+    *padding-left: 24px;
+    list-style-position: outside;
+    margin-left: 0
+}
+
+#payRule .instruction li span {
+    color: #f00;
+    font-weight: bold
+}
+
+#payRule a {
+    color: #06c;
+    line-height: 24px;
+    display: inline-block;
+    margin-top: 10px
+}
+
+#payRule td {
+    padding-right: 20px
+}
+
+#payRule .company-detail {
+    border-left: 1px solid #f0efef;
+    padding: 0 0 0 27px
+}
+
+#payRule q.content-unfold, #payRule q.content-fold {
+    float: right;
+    margin-top: 10px;
+    background-image: url("img/sprites.png");
+    width: 15px;
+    height: 14px
+}
+
+#payRule q.content-unfold {
+    background-position: 0 -41px
+}
+
+#payRule q.content-fold {
+    background-position: 0 -56px
+}
+
+#BalanceInfo {
+    border-top: 1px dotted #f8f8f8;
+    margin-top: 12px;
+    padding-bottom: 14px;
+    font-size: 12px;
+    color: #666
+}
+
+#BalanceInfo .balance, #BalanceInfo .rmb {
+    font-size: 26px;
+    color: #d66;
+    font-weight: bold
+}
+
+#BalanceInfo .rmb {
+    font-size: 14px
+}
+
+#PayLogTableBar .invoiceItemLayout {
+    overflow: hidden
+}
+
+#PayLogTableBar .invoiceItem {
+    float: left;
+    margin-left: 12px;
+    width: 480px
+}
+
+table.invoice-alert img.alert {
+    background: url("/un-web-lib/css/img/mix-icon.gif") no-repeat scroll 0 -145px transparent;
+    vertical-align: middle
+}
+
+#PayLogTableBar div.tip {
+    float: left;
+    margin: 18px 12px;
+    color: #f00
+}
+
+#PayLogTableBar img.tip-arrow {
+    background: url("/un-web-lib/css/img/mix-icon.gif") no-repeat scroll 0 -428px transparent;
+    vertical-align: middle
+}
+
+#PayLogTableBar div.tip span.name {
+    color: #333
+}
+
+#PaymentStatus {
+    margin: 12px 0;
+    line-height: 16px;
+    font-size: 14px;
+}
+
+#PayLogTableBar .paylog-subrow-btn {
+    display: inline-block;
+    line-height: 0;
+    overflow: hidden;
+    width: 12px;
+    height: 12px;
+    background: url(/img/sprites.png) 0 -103px no-repeat
+}
+
+#PayLogTableBar .paylog-subrowclose-btn {
+    background: url(/img/sprites.png) 0 -116px;
+    no-repeat
+}
+
+.skin-table-unwebsiteMg-cell-text, .skin-table-unoverview-cell-text {
+    padding: 12px 20px;
+    padding-left: 10px
+}
+
+.skin-table-unaccount {
+    overflow: hidden
+}
+
+.skin-table-unwebsiteMg, .skin-table-unaccount {
+    border-width: 1px 0
+}
+
+#OverviewMain .ui-table table, .skin-table-unaccount table {
+    border-width: 1px 0 0
+}
+
+.skin-table-unaccount-subrow {
+    padding: 0
+}
+
+#PayLogTableBar .skin-table-unaccount-subrow, .skin-table-unaccount-subrow table {
+    border: 0;
+    background: #fff
+}
+
+.skin-table-unaccount-subrow .no-data {
+    color: #8d1d1c
+}
+
+.skin-table-unaccount-row-unfolded table {
+    background: #fff
+}
+
+table.invoiceItem {
+    border: 1px solid #e3e3e3;
+    margin-bottom: 12px
+}
+
+table.invoiceItem td {
+    color: #666;
+    line-height: 28px;
+    border-bottom: 1px solid #f0efef;
+    text-align: left;
+    padding-left: 12px
+}
+
+table.invoiceItem q {
+    padding-left: 5px
+}
+
+#InvoiceNo {
+    height: 60px;
+    width: 100%
+}
+
+#InvoiceNoSubmit button {
+    margin-right: 12px
+}
+
+table.invoiceItem ul {
+    list-style: none outside none
+}
+
+table.invoiceItem td.taxInvoiceTD {
+    padding-left: 0
+}
+
+table.editTaxInvoceTable, table.showTaxInvoiceTable {
+    border: 0
+}
+
+table.editTaxInvoceTable td, table.showTaxInvoiceTable td, #TaxInvoiceUL {
+    border: 0;
+    background: #f4f5f7
+}
+
+#TaxInvoiceUL {
+    padding: 0 8px
+}
+
+#TaxInvoiceUL li {
+    border-top: 1px dotted #ccc
+}
+
+#TaxInvoiceUL li.first {
+    border-top: 0
+}
+
+#TaxInvoiceUL .noTaxInvoiceBar {
+    padding-left: 12px;
+    color: #f00
+}
+
+#EditTaxInvoice td.taxInvoiceTitle, #TaxInvoiceUL td.showTaxInvoiceTitle {
+    padding-left: 12px;
+    width: 70px
+}
+
+#TaxInvoiceUL td.showTaxInvoiceOpt {
+    width: 75px
+}
+
+#EditTaxInvoice {
+    padding: 8px 0
+}
+
+#EditTaxInvoice button {
+    margin-right: 8px
+}
+
+table.invoice-alert table.editTaxInvoceTable td, table.invoice-alert table.showTaxInvoiceTable td, table.invoice-alert #TaxInvoiceUL {
+    background: #fff8f4
+}
+
+#ShowSoftwareInfoBlock .title, #VerifySoftwareInfoBlock .title, #AppForm .title {
+    font-size: 13px;
+    font-weight: bold;
+    color: #333
+}
+
+#ShowSoftwareInfoBlock .checking, #VerifySoftwareInfoBlock .mod {
+    color: #e76565
+}
+
+#ShowSoftwareInfoBlock .can-modify .checking, #ShowSoftwareInfoBlock .in-checking .modify {
+    display: none
+}
+
+.can-modify, #ShowSoftwareInfoBlock .in-checking {
+    padding-left: 30px
+}
+
+#ShowSoftwareInfoBlock table, #VerifySoftwareInfoBlock .VerifySoftwareInfoForm {
+    margin: 24px 20px 0
+}
+
+#ShowSoftwareInfoBlock table th, #VerifySoftwareInfoBlock table th {
+    font-weight: normal;
+    text-align: left;
+    width: 150px;
+    padding: 5px 10px
+}
+
+#ShowSoftwareInfoBlock table td, #VerifySoftwareInfoBlock table td {
+    height: 26px;
+    padding: 5px 10px
+}
+
+#VerifySoftwareInfoForm {
+    margin-top: 12px
+}
+
+#VerifySoftwareInfoBlock .mod, #AppListBar .notice, #AppForm .notice {
+    padding: 5px;
+    background-color: #fef8d8;
+    border: 1px solid #f0daa8;
+    color: #666;
+    height: 16px;
+    line-height: 16px;
+    overflow: hidden;
+    display: block
+}
+
+#AppListBar .mod {
+    margin-left: 20px;
+    margin-right: 20px
+}
+
+#AppListBar .notice {
+    margin-left: 20px;
+    margin-right: 20px
+}
+
+#AppForm .title {
+    margin: 12px 0
+}
+
+#VerifyAppInfoForm .register-form td {
+    padding: 5px 20px;
+    text-align: left
+}
+
+#VerifySoftwareInfoForm .operation {
+    margin-left: 20px
+}
+
+div.info-wrap p.hint {
+    color: #999;
+    display: block
+}
+
+.skin-table-unoverview {
+    border-width: 0
+}
+
+.skin-table-unoverview-cell-text p {
+    line-height: 14px;
+    text-align: right
+}
+
+.skin-table-unoverview-cell-text p.prodName {
+    color: #06c;
+    line-height: 34px;
+    text-align: left
+}
+
+.skin-table-unoverview-cell-text p.title {
+    color: #999
+}
+
+.skin-table-unoverview-cell-text p.sumValue {
+    color: #333;
+    margin-top: 6px
+}
+
+#VerifySiteInfoForm #SiteVerifyWidget {
+    padding: 0
+}
+
+#SiteVerifyWidget .register-form td, #appVerify-widget .register-form td {
+    padding: 5px 20px;
+    text-align: left
+}
+
+#SiteVerifyWidget .register-form th, #appVerify-widget .register-form th {
+    text-align: left;
+    width: 90px;
+    vertical-align: top;
+    padding: 7px 0
+}
+
+#SiteVerifyWidget table.register-form, #appVerify-widget table.register-form {
+    margin-left: 24px
+}
+
+.skin-select-accountDialog-layer {
+    z-index: 300
+}
+
+#PayLogTableBar .data-none {
+    padding-left: 30px;
+    line-height: 30px;
+    color: #f60
+}
+
+#PayLogTableBar q {
+    margin-left: 0
+}
+
+#AppMgContent {
+    margin: 0
+}
+
+.register-form .edit th {
+    text-align: left;
+    width: 80px
+}
+
+.inline-modify q {
+    padding-left: 5px
+}
+
+.expend .paylog-subrow-btn {
+    float: left;
+    margin-top: 2px;
+    margin-top: 3px !important
+}
+
+.skin-table-unappMg-cell-text .open {
+    color: #6b2
+}
+
+.appform {
+    margin-left: 20px;
+    margin-right: 20px
+}
+
+#AccountBulletin .ui-table-cell-text q {
+    color: #666
+}
+
+.certify-main {
+    border: solid #ddd 1px;
+    border-width: 1px 0;
+    background: #fff
+}
+
+.certify-main #Ulic {
+    border: solid #ddd 1px;
+    border-width: 0 1px;
+    padding: 14px 20px;
+    margin: 0;
+    position: relative
+}
+
+.certify-main #Ulic span {
+    font-size: 14px
+}
+
+.certify-main #Ulic .licence {
+    padding-left: 26px;
+    font-weight: bold
+}
+
+.certify-main .customer-name {
+    font-weight: bold
+}
+
+.ulic-more {
+    position: absolute;
+    top: 16px;
+    right: 20px
+}
+
+.certify-main .customer-name {
+    font-weight: 600px;
+    padding-right: 16px
+}
+
+.certifyInfo th, .certifyInfo td {
+    color: #202020
+}
+
+.certify-table th {
+    background: #f6f7f9;
+    padding: 10px;
+    border: solid #ddd 1px;
+    font-weight: bold;
+    text-align: left
+}
+
+.certifyInfo .table-head th {
+    color: #666
+}
+
+.certify-table td {
+    padding: 12px 10px
+}
+
+.certify-table .certify-info-first {
+    padding-left: 20px
+}
+
+.certify-table .certify-info-last {
+    padding-right: 20px
+}
+
+.certify-col1 {
+    width: 120px
+}
+
+.certify-col2 {
+    width: 180px
+}
+
+.certifyInfo .table-body {
+    border: 1px solid #ddd;
+    border-width: 0 1px
+}
+
+.certifyInfo .table-body td {
+    border: 0;
+    vertical-align: top;
+    line-height: 35px
+}
+
+.certify-info-table, .certify-table-detail {
+    margin-top: 7px
+}
+
+.certifyInfo .certify-info-table td, .certifyInfo .certify-table-detail td {
+    line-height: 24px;
+    padding-bottom: 20px
+}
+
+.certifyInfo .table-body td {
+    border-bottom: 1px solid #ddd
+}
+
+.certifyInfo table.certify-table-detail td {
+    border: 0;
+    padding: 0 0 20px
+}
+
+.certifyInfo .table-body td.certify-detail-th {
+    margin: 0;
+    padding: 0;
+    width: 85px
+}
+
+.certify-row-no-licence .certify-info-first {
+    text-indent: 27px
+}
+
+.certify-cur-no-licence .certify-row-no-licence, .certify-cur-gold .certify-row-gold, .certify-cur-platinum .certify-row-platinum, .certify-cur-diamond .certify-row-diamond {
+    background: #f7f8fa
+}
+
+.certify-gold, .certify-platinum, .certify-diamond {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    background-image: url(/un-web-lib/css/img/mix-icon.gif);
+    background-repeat: no-repeat;
+    vertical-align: text-bottom
+}
+
+.certify-gold {
+    background-position: 0 -32px
+}
+
+.certify-platinum {
+    background-position: 0 -48px
+}
+
+.certify-diamond {
+    background-position: 0 -64px
+}
+
+.certify-info-table td {
+    padding: 0;
+    border: 0
+}
+
+.certifyInfo .certify-last-row td {
+    border-bottom: 0
+}
+
+.certifyInfo .certify-info-table td {
+    border: 0
+}
+
+.certify-td-title {
+    width: 85px
+}
+
+.certify-notice {
+    padding: 10px 27px;
+    line-height: 14px;
+    border: 1px solid #ddd;
+    border-width: 0 1px
+}
+
+.certify-notice-text {
+    padding: 0 10px
+}
+
+#AccountMain q.certify-unfold {
+    color: #b0b0b0
+}
+
+#AccountMain q.certify-unfold:hover {
+    color: #06c;
+    text-decoration: underline
+}
+
+.certify-unfold-arrow {
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    margin: 0 2px;
+    background: url(/img/sprites.png) left -172px no-repeat
+}
+
+.appMg-opt {
+    overflow: hidden;
+    zoom: 1
+}
+
+.appVerify-sdkDownLoad {
+    float: right
+}
+
+.appCreate {
+    margin: 12px 48px
+}
+
+.appCreate .appVerify-opt {
+    padding: 12px 48px
+}
+
+.app-report-link {
+    padding: 0 16px 0 27px
+}
+
+.app-edit-link {
+    padding-left: 16px
+}
+
+.app-mark-split {
+    color: #c8c8c8
+}
+
+.app-platform-logo {
+    width: 27px;
+    height: 27px;
+    text-indent: -9000px;
+    background-image: url(/img/sprites.png);
+    background-repeat: no-repeat
+}
+
+.app-platform-ios {
+    background-position: 0 -248px
+}
+
+.app-platform-andriod {
+    background-position: 0 -220px
+}
+
+.app-terminal-logo {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    height: 18px;
+    line-height: 18px;
+    padding-right: 17px;
+    background-image: url(/img/sprites.png);
+    background-repeat: no-repeat
+}
+
+.app-terminal-phone {
+    padding-left: 17px;
+    background-position: 0 -182px
+}
+
+.app-terminal-pad {
+    padding-left: 20px;
+    background-position: 0 -201px
+}
+
+.ui-fileuploader .adding-row {
+    position: relative;
+    zoom: 1;
+    width: 54px;
+    height: 16px;
+    overflow: hidden
+}
+
+.ui-fileuploader .adding-row input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    -moz-opacity: 0;
+    filter: alpha(opacity = 0);
+    cursor: pointer
+}
+
+.ui-fileuploader .adding-row q {
+    position: absolute;
+    margin: 0
+}
+
+.ui-fileuploader .adding-row input {
+    cursor: pointer;
+    width: 54px
+}
+
+.ui-fileuploader .ui-list li {
+    list-style: none;
+    line-height: 16px;
+    margin: 2px
+}
+
+i.icon-attachment {
+    display: block;
+    float: left;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    margin-right: 3px;
+    background: url(/un-web-lib/css/img/mix-icon.gif) no-repeat
+}
+
+.file-type-other i.icon-attachment {
+    background-position: 0 -128px
+}
+
+.file-type-image i.icon-attachment {
+    background-position: 0 -112px
+}
+
+.ui-selectgroup .ui-select {
+    margin-right: 5px
+}
+
+.operation-bar button {
+    margin-right: 5px
+}
+
+.header-operation-block .operation-bar {
+    padding: 5px 12px;
+    border-bottom: 1px solid #cdcdcd
+}
+
+#AccountBulletin .ui-table {
+    border-width: 0 0 1px 0
+}
+
+#AccountBulletin .ui-table-head table {
+    border: 0
+}
+
+#AccountBulletin .ui-table-subrow {
+    border: 0;
+    padding: 20px;
+    background: #f5f5f5
+}
+
+#AccountBulletin .ui-table-cell q {
+    text-decoration: none
+}
+
+#AccountBulletin .ui-table-cell q.unread {
+    font-weight: bold
+}
+
+#AccountConsultingForm {
+    display: none;
+    padding: 12px;
+    border-bottom: 1px solid #cdcdcd;
+    background: #f5f5f5
+}
+
+#AccountConsultingForm.adding {
+    display: block
+}
+
+#AccountConsulting .post-form .ui-textarea {
+    width: 100%;
+    height: 120px
+}
+
+#AccountConsulting .ui-fileuploader {
+    margin: 12px 0
+}
+
+#ConsultingList {
+    border-bottom: 1px solid #cdcdcd
+}
+
+#ConsultingList .list-item {
+    border-bottom: 1px solid #ededed;
+    padding: 12px 12px 20px 12px
+}
+
+#ConsultingList .list-item .item-content {
+    margin-bottom: 12px;
+    word-wrap: break-word;
+    word-break: break-all
+}
+
+#ConsultingList .list-item .item-info {
+    margin-top: 12px;
+    color: #999
+}
+
+#ConsultingList .thread-open .item-info {
+    margin-bottom: 12px
+}
+
+#ConsultingList .list-item .item-operation {
+    float: right
+}
+
+#ConsultingList .item-status-0 .view-button, #ConsultingList .item-status-1 .view-button, #ConsultingList .item-status-2 .reply-button, #ConsultingList .item-status-3 .reply-button, #ConsultingList .item-status-2 .post-form, #ConsultingList .item-status-3 .post-form {
+    display: none
+}
+
+#ConsultingList .status b {
+    color: #fa0
+}
+
+#ConsultingList .thread {
+    display: none;
+    margin: 0 -12px -12px -12px;
+    padding: 12px;
+    background: #f5f5f5
+}
+
+#ConsultingList .list-item.thread-open .thread {
+    display: block
+}
+
+#ConsultingList .thread-wrap {
+    border: 1px solid #cdcdcd;
+    background: #fff
+}
+
+#ConsultingList .thread-item {
+    list-style: none;
+    border-top: 1px solid #ededed;
+    padding: 12px
+}
+
+#ConsultingList .thread-item .item-info {
+    margin-bottom: 0
+}
+
+#ConsultingList .attachment-item {
+    list-style: none;
+    line-height: 16px;
+    margin: 2px
+}
+
+#ConsultingList .unread button.reply-button {
+    font-weight: bold
+}
+
+#AccountConsultingReplyForm {
+    display: none;
+    padding: 0 12px 12px 12px
+}
+
+#ConsultingList .item-status-0 .thread .post-form, #ConsultingList .item-status-1 .thread .post-form {
+    display: block
+}
+
+#ConsultingList .item-info span {
+    margin-right: 1em
+}
+
+#AccountInfo {
+    border-top: 1px solid #cdcdcd
+}
+
+#AccountInfo q {
+    margin: 0
+}
+
+#AccountInfo .ui-select {
+    float: left;
+    margin-right: 5px
+}
+
+#AccountInfo .info-block {
+    margin: 20px 40px
+}
+
+#AccountInfo .info-block .info-modify-form {
+    display: none
+}
+
+#AccountInfo .info-block-editing .info-table tbody {
+    display: none
+}
+
+#AccountInfo .info-block-editing .info-modify-form {
+    display: block
+}
+
+#AccountInfo .info-block .cancel-modify-button {
+    display: none
+}
+
+#AccountInfo .info-block-editing .start-modify-button {
+    display: none
+}
+
+#AccountInfo .info-block-editing .cancel-modify-button {
+    display: inline
+}
+
+#AccountInfo th, #AccountInfo td {
+    padding: 5px 10px;
+    line-height: 22px
+}
+
+#AccountInfo th {
+    text-align: left;
+    color: #999;
+    vertical-align: top
+}
+
+#AccountInfo th {
+    width: 100px
+}
+
+#AccountInfo .info-table thead th {
+    color: #333
+}
+
+#AccountInfo .inline-modify-table {
+    border: 1px solid #eee;
+    background: #f9f9f9;
+    width: 350px
+}
+
+#AccountInfo .inline-modify-table th, #AccountInfo .inline-modify-table td {
+    padding: 5px
+}
+
+#AccountInfo .inline-modify-table th {
+    width: 80px;
+    color: #666
+}
+
+#AccountInfo tr.inline-modify .modify-block, #AccountInfo tr.inline-modify p.display q.cancel-modify-button, #AccountInfo tr.inline-modify-editing p.display q.start-modify-button {
+    display: none
+}
+
+#AccountInfo tr.inline-modify-editing p.display q.cancel-modify-button {
+    display: inline
+}
+
+#AccountInfo tr.inline-modify-editing .modify-block {
+    display: block
+}
+
+#AICEmailRow form {
+    display: inline
+}
+
+i.icon-phonestatus-0, i.icon-emailstatus-0, i.icon-idcardstatus-0, i.icon-idcardstatus-2 {
+    color: #d66;
+    margin: 0 5px;
+    font-style: normal
+}
+
+i.icon-phonestatus-1, i.icon-emailstatus-1, i.icon-idcardstatus-1 {
+    color: #6b2;
+    margin: 0 5px;
+    font-style: normal
+}
+
+#AICCellPhoneRow input.skin-text-validcode {
+    width: 60px
+}
+
+#AICCellPhoneRow.phone-status-0 .icon-phonestatus-1, #AICCellPhoneRow.phone-status-1 .icon-phonestatus-0, #AICCellPhoneRow.phone-status-1 .verify-button, #AICCellPhoneRow.phone-status-0 .start-modify-button, #AICCellPhoneRow.phone-status-0 .cancel-modify-button, #AICCellPhoneRow.verifying .verify-button, #AICCellPhoneRow.phone-status-0 .modify-new, #AICCellPhoneRow.phone-status-0 .modify-old, #AICCellPhoneRow.step-verify-old .modify-new, #AICCellPhoneRow.step-verify-old .unverified, #AICCellPhoneRow.step-verify-new .modify-old, #AICCellPhoneRow.step-verify-new .unverified {
+    display: none
+}
+
+#AccountInfo #AICCellPhoneRow.verifying .modify-block {
+    display: block
+}
+
+#AccountInfo #AICCellPhoneRow.verifying .unverified {
+    display: table;
+    *display: block
+}
+
+#AIC.paytype-0 tr.alt-personal {
+    display: none
+}
+
+#AIF.paytype-0 #AIFE, #AIF.paytype-1 #AIFP, #AICEmailRow.emailstatus-1 .icon-emailstatus-0, #AICEmailRow.emailstatus-0 .icon-emailstatus-1, #AICEmailRow.emailstatus-1 form, #AIFP.customer-payway-bank tr.payway-post, #AIFP.customer-payway-post tr.payway-bank, #AIFP.id-card-0 i.icon-idcardstatus-1, #AIFP.id-card-0 i.icon-idcardstatus-2, #AIFP.id-card-1 i.icon-idcardstatus-0, #AIFP.id-card-1 i.icon-idcardstatus-2, #AIFP.id-card-2 i.icon-idcardstatus-0, #AIFP.id-card-2 i.icon-idcardstatus-1, #AIFP.id-card-1 tr.identity-modify, #AIFP .identity-alert {
+    display: none
+}
+
+#AIFP .can-modify-false .identity-alert {
+    display: block
+}
+
+#AIPay.keep-money-0 .keep-money-text-true, #AIPay.keep-money-1 .keep-money-text-false {
+    display: none
+}
+
+.AIFEModify-notice-th {
+    vertical-align: top
+}
+
+.AIFEModify-notice-tipDes {
+    color: #666;
+    padding-left: 1em
+}
+
+.customer-service-main {
+    border: solid #ddd 1px;
+    background: #fff;
+    height: 700px
+}
+
+.customer-service-main .customer-service-main-ul {
+    overflow: hidden;
+    width: 950px;
+    position: relative;
+    border: 0;
+    margin-bottom: 20px
+}
+
+.customer-service-main .customer-service-main-ul-min {
+    width: 716px
+}
+
+.customer-service-main li {
+    list-style: none;
+    float: left;
+    padding: 0;
+    margin: 0
+}
+
+.customer-service-main a {
+    text-decoration: none;
+    outline: 0
+}
+
+.customer-service-main .customer-service-pic {
+    display: block;
+    position: relative;
+    float: left;
+    height: 371px;
+    width: 300px;
+    text-align: center;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    margin: 10px 0 10px 10px;
+    overflow: hidden
+}
+
+.customer-service-main .customer-service-pic-min {
+    width: 230px;
+    margin-left: 5px
+}
+
+.customer-service-h {
+    color: #666;
+    font: 24px Arial, '黑体', Helvetica, sans-serif;
+    position: relative;
+    top: 50%;
+    padding-bottom: 18px
+}
+
+.customer-service-p {
+    color: #999;
+    font: 13px Arial, '宋体', Helvetica, sans-serif;
+    width: 180px;
+    margin: 0 auto;
+    position: relative;
+    top: 50%
+}
+
+.customer-service-btn {
+    height: 40px;
+    line-height: 40px;
+    font: 20px Arial, '黑体', Helvetica, sans-serif;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    bottom: -30px;
+    text-indent: -9999px;
+    display: block;
+    text-align: center;
+    width: 100%
+}
+
+.customer-service-btn-ol {
+    color: #4aa500;
+    text-shadow: #f1fbe9 1px 1px 1px;
+    background: #d8f3c0;
+    FILTER: progid: DXImageTransform . Microsoft . Gradient(gradientType = 0, startColorStr = #e5f7d5, endColorStr = #d8f3c0);
+    background: -moz-linear-gradient(top, #e5f7d5, #d8f3c0);
+    background: -webkit-gradient(linear, 0% 0, 0% 100%, from(#e5f7d5), to(#d8f3c0))
+}
+
+.customer-service-btn-cm {
+    color: #aa7a22;
+    text-shadow: 1px 1px 1px #feefd2;
+    background: #fee5ba;
+    FILTER: progid: DXImageTransform . Microsoft . Gradient(gradientType = 0, startColorStr = #feefd2, endColorStr = #fee5ba);
+    background: -moz-linear-gradient(top, #feefd2, #fee5ba);
+    background: -webkit-gradient(linear, 0% 0, 0% 100%, from(#feefd2), to(#fee5ba))
+}
+
+.customer-service-btn-ex {
+    color: #828282;
+    text-shadow: #919191 1px 1px 1px;
+    FILTER: progid: DXImageTransform . Microsoft . Gradient(gradientType = 0, startColorStr = #fafafa, endColorStr = #ececec);
+    background: #ececec -moz-linear-gradient(top, #fafafa, #ececec);
+    background: -webkit-gradient(linear, 0% 0, 0% 100%, from(#fafafa), to(#ececec))
+}
+
+.customer-service-pic-ol {
+    background: url(/client/assets/css/img/icon.jpg) center top no-repeat
+}
+
+.customer-service-pic-cm {
+    background: url(/client/assets/css/img/icon.jpg) center -371px no-repeat
+}
+
+.customer-service-pic-ex {
+    background: url(/client/assets/css/img/icon.jpg) center -742px no-repeat;
+    cursor: default
+}
+
+.customer-service-pic-ol:hover {
+    box-shadow: 1px 1px 2px #d8f3c0, -1px -1px 2px #d8f3c0
+}
+
+.customer-service-pic-cm:hover {
+    box-shadow: 1px 1px 2px #fee7bc, -1px -1px 2px #fee7bc
+}
+
+.customer-service-pic-ex:hover {
+    box-shadow: 1px 1px 2px #f3f3f3, -1px -1px 2px #f3f3f3
+}
+
+.customer-service-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 43px;
+    width: 100%;
+    background: url(/client/assets/css/img/icon_new.png) no-repeat top right
+}
+
+.customer-service-pic-ol:hover .customer-service-btn {
+    height: 40px;
+    line-height: 40px;
+    bottom: 0;
+    text-indent: 0
+}
+
+.customer-service-pic-cm:hover .customer-service-btn {
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    bottom: 0;
+    text-indent: 0
+}
+
+.customer-service-main-clr {
+    clear: both;
+    margin: 0 10px 20px;
+    height: 1px;
+    background: #f5f5f5
+}
+
+.customer-service-main-toolbar {
+    position: absolute;
+    width: 100%;
+    border: 0;
+    height: 40px
+}
+
+.customer-service-searchArea {
+    position: absolute;
+    width: 70%;
+    max-width: 922px;
+    border: 1px solid #d6d6d6;
+    height: 36px;
+    margin: -18px 0 0 10px;
+    padding: 0;
+    overflow: hidden;
+    vertical-align: middle;
+    background: #fff;
+    top: 50%
+}
+
+.customer-service-searchArea-focus {
+    border: 1px solid #d2d9e7;
+    box-shadow: 1px 1px 2px #d2d9e7 inset, -1px -1px 2px #d2d9e7 inset;
+    color: #666
+}
+
+.customer-service-searchInput, .customer-service-searchBtn {
+    border: 0;
+    background: 0
+}
+
+.customer-service-searchInput {
+    box-sizing: border-box;
+    width: 90%;
+    height: 36px;
+    padding: 11px 0 11px 8px;
+    float: left;
+    width: -webkit-calc(100% -4px -50px);
+    width: -moz-calc(100% -4px -50px);
+    width: calc(100% -4px -50px)
+}
+
+.customer-service-searchBtn {
+    width: 47px;
+    height: 36px;
+    filter: none;
+    -ms-filter: none;
+    background: url(/client/assets/css/img/customer-service-search.png) 0 0 no-repeat;
+    margin: 0;
+    padding: 0;
+    text-indent: -4000px;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+    outline: 0
+}
+
+.customer-service-searchBtn:hover {
+    background: url(/client/assets/css/img/customer-service-search.png) 0 0 no-repeat
+}
+
+.customer-service-searchBtn:active {
+    background: url(/client/assets/css/img/customer-service-search.png) 0 -36px no-repeat
+}
+
+.customer-service-searchBtn-focus {
+    background: url(/client/assets/css/img/customer-service-search.png) 0 -36px no-repeat
+}
+
+.customer-service-searchBtn-focus:hover, .customer-service-searchBtn-focus:active {
+    background: url(/client/assets/css/img/customer-service-search.png) 0 -36px no-repeat
+}
+
+.customer-service-main-rule {
+    position: absolute;
+    width: 80px;
+    height: 16px;
+    padding-right: 15px;
+    top: 50%;
+    right: 0;
+    margin-top: -8px
+}
+
+.customer-service-main-rule-icon {
+    display: block;
+    color: #9a9a9a;
+    background: url(/client/assets/css/img/rule-icon.jpg) no-repeat;
+    background-position: right;
+    margin: 0;
+    width: 65px;
+    line-height: 16px
+}
+
+.customer-service-main-label {
+    position: absolute;
+    width: 600px;
+    height: 200px;
+    left: 50%;
+    margin-left: -300px;
+    bottom: 1px;
+    overflow: hidden;
+    background: url(/client/assets/css/img/customer-service-main-label.jpg) no-repeat
+}
+
+#ReportMain .operation-bar button {
+    margin-right: 5px
+}
+
+#ReportMain .operation-bar {
+    padding-top: 10px
+}
+
+#ReportDownlaodFrame {
+    display: none
+}
+
+#ReportCalendar {
+    position: absolute;
+    right: 10px;
+    top: 5px
+}
+
+#ReportQueryForm {
+    position: relative;
+    height: 24px;
+    margin: 0 -1px;
+    border: 1px solid #d4dae5;
+    padding: 8px 10px;
+    background: #e7e8ec
+}
+
+#ReportQueryForm.single-cn #ReportTnQuery {
+    display: none
+}
+
+#ReportQueryForm.single-cn .hidden-label {
+    display: inline-block
+}
+
+#ReportQueryForm.no-dimension #ReportDimensionQuery {
+    display: none
+}
+
+#ReportQueryForm .query-item {
+    margin-right: 20px
+}
+
+#ReportDataDisplayQuery {
+    margin-right: 20px
+}
+
+#ReportQueryForm .query-item, #ReportQueryForm .query-item label {
+    display: inline-block;
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    line-height: 25 px\9;
+    _line-height: 22px
+}
+
+#ReportQueryForm .query-item .ui-select {
+    float: left
+}
+
+#ReportQueryForm label.hidden-label {
+    display: none
+}
+
+#ReportQueryForm .query-item label {
+    font-weight: bold
+}
+
+#ReportQueryForm .query-item span label {
+    font-weight: normal
+}
+
+#ReportQueryForm .query-long-item {
+    width: 190px
+}
+
+#MainLineControl {
+    clear: both;
+    width: 100%;
+    height: 280px;
+    padding-top: 10px;
+    overflow: hidden
+}
+
+.data-compare #MainLineControl {
+    height: 300px
+}
+
+#MainLineControl.ui-unreportlinechart-hidden {
+    height: 0;
+    border: 0
+}
+
+#ReportSumView {
+    border-top: 1px solid #cdcdcd
+}
+
+#ReportGlobalSubscribe .ui-text-disabled, #ReportSubscribeList .ui-text-disabled {
+    display: none
+}
+
+#ReportGlobalSubscribe .ui-validator-message, #ReportSubscribeList .ui-validator-message {
+    margin-left: 5px
+}
+
+#ReportGlobalSubscribe h3 span.hint, #ReportSubscribeList th span.hint {
+    margin-left: 1em;
+    font-size: 12px;
+    font-weight: normal;
+    color: #999
+}
+
+#ReportGlobalSubscribe th, #ReportGlobalSubscribe td {
+    height: 22px;
+    line-height: 22px;
+    padding: 5px 10px
+}
+
+#ReportGlobalSubscribe th {
+    width: 80px;
+    font-weight: normal;
+    text-align: left
+}
+
+#ReportGlobalSubscribe .ui-text {
+    width: 100%
+}
+
+#ReportSubscribeList .ui-table-hcell {
+    border: 0
+}
+
+#ReportSubscribeList .ui-table table {
+    border-width: 0 0 1px 0
+}
+
+#ReportSubscribeTable {
+    border-bottom: 0;
+    border-top: 0
+}
+
+#ReportSubscribeList .ui-table-cell {
+    border: 0
+}
+
+#ReportSubscribeList .ui-text {
+    width: 100%
+}
+
+#ReportSubscribeList .operation-bar {
+    padding: 10px
+}
+
+.legend-box {
+    padding-top: 3px
+}
+
+.legend-color {
+    width: 14px;
+    height: 14px;
+    float: left
+}
+
+.legend-text {
+    line-height: 14px;
+    margin-left: 10px
+}
+
+#MainLineControl .ui-lineswitch {
+    float: right
+}
+
+.skin-button-em {
+    margin-left: 12px
+}
+
+#CooperationMain {
+    min-height: 400px
+}
+
+#CooperationMain q {
+    text-decoration: none
+}
+
+#CNListBar {
+    margin: 8px 0
+}
+
+#CreateAdposBtn {
+    margin-bottom: 10px
+}
+
+.ui-button {
+    margin-bottom: 10px
+}
+
+#GetCodeBtn, #AddCustomizeChannelBtn {
+    display: block;
+    margin-top: 10px
+}
+
+#AddUrlFilterBtn {
+    margin: 10px 0
+}
+
+#CooperationMain .searchOptBar {
+    background: #e7e8ec;
+    border-top: 1px solid #d4dae5;
+    overflow: hidden;
+    zoom: 1;
+    padding: 9px 20px
+}
+
+#CooperationMain .Select-Bar {
+    padding: 9px 20px
+}
+
+.searchOptBar .title {
+    font-weight: bold
+}
+
+.searchOptBar .ui-select {;
+    color: red;
+    margin-right: 24px
+}
+
+.searchOptBar .searchArea {
+    float: right;
+    margin: 0
+}
+
+#TradeFilterListTableBar {
+    padding-top: 12px;
+    padding-bottom: 12px
+}
+
+#TradeFilterForm .ui-table, #TradeFilterForm .ui-table-body table {
+    border: 0
+}
+
+#TradeFilterListTableBar .OperateBar {
+    padding: 12px
+}
+
+#urlChannelInput, #urlFilterInput {
+    width: 350px
+}
+
+#AdposListTableBar q {
+    color: #0066cb
+}
+
+#AdposListTableBar a {
+    margin: 0 5px
+}
+
+#AdposListTableBar .new {
+    color: #fa0
+}
+
+#AdposListTableBar .available {
+    color: #333
+}
+
+#AdposListTableBar .unavailable {
+    color: #999
+}
+
+#AdposListTableBar .stop {
+    color: #999
+}
+
+#createAdposBtn {
+    color: #333;
+    margin-bottom: 8px
+}
+
+#AdposCodeDialog #CodeArea {
+    width: 500px;
+    height: 100px;
+    margin: 8px 0
+}
+
+#AdposCodeDialog p, #UapCodeDialog p {
+    line-height: 18px;
+    color: #999
+}
+
+#CooperationMain .operation-bar {
+    padding: 20px;
+    padding-left: 115px
+}
+
+#CreateForm th {
+    width: 115px;
+    vertical-align: top
+}
+
+#CreateForm #CodeTitleInput {
+    width: 300px
+}
+
+.skin-textarea-code-app {
+    height: 24px;
+    line-height: 24px;
+    width: 250px
+}
+
+.appCodePanel-button-field {
+    display: inline-block;
+    *display: inline;
+    zoom: 1
+}
+
+.skin-dialog-getcode .ui-dialog-body {
+    padding: 0
+}
+
+#CentMain ul, #CentMain li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: "宋体"
+}
+
+.clr {
+    clear: both;
+    height: 1px;
+    overflow: hidden
+}
+
+.break {
+    height: 10px
+}
+
+#CentMain .ui-selectgroup {
+    display: inline
+}
+
+.deal {
+    width: 60px;
+    height: 22px;
+    color: #FFF;
+    cursor: pointer;
+    line-height: 22 px\9;
+    _line-height: 20px;
+    *line-height: 20px !important;
+    vertical-align: middle;
+    border: solid 1px #74b444;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    display: block;
+    text-align: center;
+    color: #fff;
+    background-color: #7cc95f;
+    background: -moz-linear-gradient(#7cc95f, #459e2f);
+    background: -ms-linear-gradient(#7cc95f, #459e2f);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7cc95f), color-stop(100%, #459e2f));
+    background: -webkit-linear-gradient(#7cc95f, #459e2f);
+    background: -o-linear-gradient(#7cc95f, #459e2f);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#7CC95F', endColorstr = '#459E2F');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#7CC95F',endColorstr='#459E2F')";
+    background: linear-gradient(#7cc95f, #459e2f)
+}
+
+.deal:hover {
+    color: #fff
+}
+
+.deal:active {
+    background: -moz-linear-gradient(#459e2f, #7cc95f);
+    background: -ms-linear-gradient(#459e2f, #7cc95f);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #459e2f), color-stop(100%, #7cc95f));
+    background: -webkit-linear-gradient(#459e2f, #7cc95f);
+    background: -o-linear-gradient(#459e2f, #7cc95f);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#459E2F', endColorstr = '#7CC95F');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#459E2F',endColorstr='#7CC95F')";
+    background: linear-gradient(#459e2f, #7cc95f)
+}
+
+.dealdisable {
+    border: solid 1px #a3a3a3;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    background-color: #c6c6c6;
+    background: -moz-linear-gradient(#c6c6c6, #a3a3a3);
+    background: -ms-linear-gradient(#c6c6c6, #a3a3a3);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #c6c6c6), color-stop(100%, #a3a3a3));
+    background: -webkit-linear-gradient(#c6c6c6, #a3a3a3);
+    background: -o-linear-gradient(#c6c6c6, #a3a3a3);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#C6C6C6', endColorstr = '#A3A3A3');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#C6C6C6',endColorstr='#A3A3A3')";
+    background: linear-gradient(#c6c6c6, #a3a3a3)
+}
+
+.dealdisable:active {
+    background: -moz-linear-gradient(#c6c6c6, #a3a3a3);
+    background: -ms-linear-gradient(#c6c6c6, #a3a3a3);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #c6c6c6), color-stop(100%, #a3a3a3));
+    background: -webkit-linear-gradient(#c6c6c6, #a3a3a3);
+    background: -o-linear-gradient(#c6c6c6, #a3a3a3);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#C6C6C6', endColorstr = '#A3A3A3');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#C6C6C6',endColorstr='#A3A3A3')";
+    background: linear-gradient(#c6c6c6, #a3a3a3)
+}
+
+.dealbig {
+    width: 160px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+    font-weight: bold
+}
+
+.filter {
+    width: 100%;
+    height: auto;
+    line-height: 30px;
+    font-size: 12px
+}
+
+.filter .title {
+    width: 70px;
+    float: left;
+    color: #676767;
+    text-align: center
+}
+
+.filter .all {
+    width: 55px;
+    float: left;
+    text-align: center
+}
+
+.filter .division {
+    width: 10px;
+    float: left;
+    text-align: center;
+    color: #e1e1e1
+}
+
+.filter .scope, .filter .cate {
+    width: auto;
+    margin-left: 145px
+}
+
+.filter .cate li {
+    width: 80px;
+    float: left
+}
+
+.filter q {
+    padding: 3px;
+    margin-right: 20px;
+    color: #06c;
+    text-decoration: none
+}
+
+.filter q:hover {
+    color: #fa0
+}
+
+.filter .all q {
+    margin-left: 10px;
+    margin-right: 10px
+}
+
+.filter .select_item {
+    background-color: #78849c;
+    color: #fff;
+    font-weight: bold;
+    _margin-right: 16px
+}
+
+.filter .select_item:hover {
+    color: #fff;
+    text-decoration: none
+}
+
+#AwardList li {
+    width: 150px;
+    height: 210px;
+    margin: 20px;
+    float: left;
+    display: inline
+}
+
+#AwardList li .pic {
+    width: 148px;
+    height: 130px;
+    border: solid 1px #CCC
+}
+
+#AwardList li .title {
+    line-height: 18px;
+    height: 36px;
+    margin-top: 6px;
+    text-align: center;
+    overflow: hidden;
+    color: #666
+}
+
+#AwardList li .title a {
+    color: #666
+}
+
+#AwardList li .title a:hover {
+    text-decoration: underline
+}
+
+#AwardList li .exchange {
+    line-height: 25px;
+    height: 30px
+}
+
+#AwardList li .exchange span {
+    color: #dd4144;
+    width: 60px
+}
+
+.btn_exchange {
+    float: right;
+    width: 60px
+}
+
+#result-tip div {
+    padding-top: 15px;
+    text-align: left;
+    padding-left: 20px
+}
+
+#result-tip span {
+    color: #fa0;
+    font-weight: bold
+}
+
+.rank, .navhead {
+    height: 40px;
+    width: 100%;
+    clear: both;
+    border-bottom: solid 1px #CCC;
+    border-top: solid 1px #CCC;
+    background-color: #fafafa;
+    background: -moz-linear-gradient(#fff, #f4f4f4);
+    background: -ms-linear-gradient(#fff, #f4f4f4);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fff), color-stop(100%, #f4f4f4));
+    background: -webkit-linear-gradient(#fff, #f4f4f4);
+    background: -o-linear-gradient(#fff, #f4f4f4);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ffffff', endColorstr = '#f4f4f4');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',endColorstr='#f4f4f4')";
+    background: linear-gradient(#fff, #f4f4f4)
+}
+
+.navhead {
+    border-top: 0
+}
+
+.navhead .navigation {
+    width: 400px;
+    float: left;
+    line-height: 40px;
+    font-family: "宋体";
+    color: #323232
+}
+
+.rank .title {
+    width: 80px;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+    color: #666
+}
+
+.rank .orderby {
+    width: 250px;
+    float: left
+}
+
+.rank .orderby .field {
+    width: 75px;
+    float: left;
+    text-align: right;
+    cursor: pointer
+}
+
+.rank .orderby .field .name {
+    width: 60px;
+    float: left;
+    line-height: 40px;
+    padding-right: 3px;
+    color: #666;
+    -moz-user-select: none;
+    -webkit-user-select: none
+}
+
+.rank .orderby .field .icon {
+    width: 10px;
+    height: 10px;
+    margin-top: 15px;
+    background-image: url(/un-web-lib/css/img/esui.png);
+    background-position: -40px -250px;
+    float: left;
+    overflow: hidden
+}
+
+.rank .orderby .up .name, .rank .orderby .down .name {
+    color: #fa0;
+    font-weight: bold
+}
+
+.rank .orderby .up .icon {
+    background-position: -40px -240px
+}
+
+.rank .orderby .down .icon {
+    background-position: -40px -230px
+}
+
+.rank .select_bar {
+    float: right;
+    margin-top: 7px
+}
+
+.rank .searchArea, .navhead .searchArea {
+    float: right;
+    margin-right: 20px
+}
+
+.awardbox {
+    margin: 10px
+}
+
+.award .bigpic {
+    float: left;
+    height: 198px;
+    width: 238px;
+    border: solid 1px #eaeaea
+}
+
+.award .awardinfo {
+    margin-left: 260px;
+    height: 200px
+}
+
+.awardinfo .awardname {
+    line-height: 45px;
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: dashed 1px #f6f6f6
+}
+
+.awardinfo .cents {
+    color: #666;
+    line-height: 40px;
+    height: 40px
+}
+
+.awardinfo .cents span {
+    color: #dd4144;
+    font-weight: bold;
+    font-size: 22px;
+    font: Arial, Helvetica, sans-serif
+}
+
+.awardinfo .exchangebox {
+    padding-top: 15px
+}
+
+.description {
+    border-top: dashed 1px #f6f6f6;
+    margin-top: 20px;
+    line-height: 22px;
+    padding: 20px 0 20px 0
+}
+
+#CentMain .mid {
+    border-top: 1px solid #ccc
+}
+
+.award_info {
+    min-width: 600px;
+    height: 200px
+}
+
+.award_order {
+    height: auto
+}
+
+.edit_item {
+    width: 100%
+}
+
+.edit_item .title {
+    height: 30px;
+    line-height: 30px;
+    width: 100px;
+    float: left;
+    text-align: right;
+    padding-right: 20px
+}
+
+.edit_item .field {
+    height: 30px;
+    line-height: 30px;
+    margin-left: 120px;
+    _margin-left: 0
+}
+
+.edit_item .field .annotation {
+    color: #999
+}
+
+.edit_item .field .validation {
+    border: #F00 solid 1px;
+    color: #F00;
+    padding: 3px;
+    background-color: #FEE
+}
+
+.edit_item .field .red {
+    color: #F00
+}
+
+.edit_item .text {
+    line-height: 30px;
+    margin-left: 120px;
+    padding-right: 30px
+}
+
+.edit_item .bold {
+    font-weight: bold
+}
+
+.edit_item textarea {
+    font-size: 12px;
+    resize: none;
+    float: left
+}
+
+.edit_item .field .award_count {
+    width: 50px;
+    display: block;
+    float: left;
+    margin: 2px 5px 0 5px
+}
+
+.edit_item .field .add_subtract {
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    font-family: "宋体";
+    border: solid 1px #ccc;
+    text-align: center;
+    display: block;
+    float: left;
+    margin-top: 3px;
+    color: #ccc;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    _margin-left: 0;
+    _margin-right: 0
+}
+
+.address {
+    clear: both;
+    margin-left: 40px;
+    margin-top: 10px;
+    height: auto
+}
+
+.address .addr_item {
+    height: 30px;
+    line-height: 30px
+}
+
+.address .addr_form {
+    background-color: #f9f9f9;
+    border: solid 1px #eee;
+    min-height: 50px;
+    padding: 10px 0 10px 0;
+    margin: 0 50px 0 0
+}
+
+.submit_item {
+    padding-top: 15px;
+    padding-bottom: 20px
+}
+
+.submit_item .btnbox {
+    margin-left: 80px
+}
+
+.address .createNew {
+    background-color: #fff;
+    border: 0
+}
+
+.address q {
+    text-decoration: none
+}
+
+.address q:hover {
+    text-decoration: underline
+}
+
+.address .btn_edit {
+    color: #f00
+}
+
+.address .btn_del {
+    color: #f00
+}
+
+.address .btn_default {
+    color: #f00
+}
+
+.address .btn_disable {
+    color: #ccc;
+    text-decoration: none;
+    cursor: default
+}
+
+.address .btn_disable:hover {
+    text-decoration: none
+}
+
+.description {
+    border-top: dashed 1px #f6f6f6;
+    margin-top: 10px;
+    line-height: 18px
+}
+
+.addr_form th {
+    width: 100px
+}
+
+.addr_form td {
+    text-align: left;
+    height: 40px
+}
+
+.addr_form .require {
+    color: #f00
+}
+
+.sidebar-widget .ui-list {
+    padding: 8px 20px;
+    list-style-type: none
+}
+
+.sidebar-widget .ui-list li {
+    margin: 0;
+    overflow: hidden;
+    margin-bottom: 14px;
+    list-style-type: none
+}
+
+.sidebar-widget .ui-list li.last {
+    margin: 0
+}
+
+.sidebar-widget .ui-list li a {
+    color: #0265cb
+}
+
+.sidebar-widget .ui-list li a:hover {
+    background-color: #eceff2
+}
+
+.sidebar-widget h3 {
+    color: #333
+}
+
+.sidebar-widget .ui-list li.active a {
+    background-color: #cfd7e3;
+    font-weight: bold
+}
+
+.sidebar-widget .ui-list p {
+    color: #999
+}
+
+.sidebar-widget .ui-list .ui-list-index {
+    margin-top: 4px;
+    width: 12px;
+    height: 12px;
+    background: #74c157;
+    color: #fff;
+    font-size: 8px;
+    line-height: 12px;
+    text-align: center
+}
+
+.sidebar-widget .ui-list .ui-list-info {
+    padding-left: 10px;
+    line-height: 18px;
+    width: 150px
+}
+
+.sidebar-widget .ui-list .ui-list-info p {
+    width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.sidebar-widget .topDonate-siteName {
+    padding-left: 8px
+}
+
+.cent-profile {
+    padding-top: 15px;
+    padding-bottom: 8px;
+    color: #666;
+    border-top: 1px solid #f8f8f8
+}
+
+.cent-profile .centNum {
+    color: #333
+}
+
+.cent-profile .centNum-hl {
+    color: #da6667
+}
+
+.cent-profile .centDate {
+    color: #999
+}
+
+#ExchangeListTableBar table.exchangeDetail {
+    border: 0
+}
+
+#ExchangeListTableBar .awardIntro {
+    overflow: hidden;
+    width: 240px
+}
+
+#ExchangeListTableBar .awardPic {
+    float: left
+}
+
+#ExchangeListTableBar .awardInfo {
+    float: right;
+    width: 180px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+#ExchangeListTableBar .awardPic img {
+    width: 48px;
+    height: 48px;
+    border: 1px solid #f4f4f4;
+    display: inline-block
+}
+
+#ExchangeListTableBar .awardName {
+    float: left;
+    padding-left: 18px
+}
+
+#ExchangeListTableBar .ui-table-cell-text {
+    height: 48px;
+    padding: 6px 12px;
+    line-height: 48px
+}
+
+.exchangeDetail th, .exchangeDetail td {
+    line-height: 24px
+}
+
+.exchangeDetail th {
+    width: 80px;
+    text-align: right;
+    font-weight: bold;
+    color: #333
+}
+
+.exchangeDetail td span {
+    padding-right: 8px
+}
+
+#ExchangeListTableBar .notHandled {
+    color: #666
+}
+
+#ExchangeListTableBar .delivering {
+    color: #666
+}
+
+#ExchangeListTableBar .finished {
+    color: #999
+}
+
+#ExchangeListTableBar .canceled {
+    color: #da6667
+}
+
+#CentMain .searchArea {
+    _margin: 6px 5px;
+    *margin: 6px 5px !important
+}
+
+#OptimizeHeader {
+    height: 20px
+}
+
+#OptimizeMain {
+    padding-bottom: 40px
+}
+
+#OptimizeMain .advice-block h3 {
+    height: auto;
+    line-height: 1em;
+    margin-bottom: 5px;
+    padding: 8px 10px 8px 32px;
+    border-bottom: 0;
+    text-align: left;
+    font-weight: bold;
+    color: #666;
+    position: relative;
+    zoom: 1;
+    filter: none;
+    -ms-filter: none
+}
+
+#OptimizeMain .advice-block h3 .extra {
+    float: right;
+    font-weight: normal;
+    line-height: 16px
+}
+
+#OptimizeMain .advice-block-suggest h3 {
+    background: #fff7cc url(/un-web-lib/css/img/mix-icon.gif) no-repeat 8px -492px
+}
+
+#OptimizeMain .advice-block-ignore h3 {
+    background: #eff8ff url(/un-web-lib/css/img/mix-icon.gif) no-repeat 8px -522px
+}
+
+#OptimizeMain .advice-block-passed h3 {
+    background: #f1fee4 url(/un-web-lib/css/img/mix-icon.gif) no-repeat 8px -552px
+}
+
+#OptimizeMain .advice-block h3 span.highlight {
+    margin: 0 3px
+}
+
+#OptimizeMain .advice-block button.detail-switch-button {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    margin-right: 5px;
+    padding: 0;
+    border: 0;
+    background: transparent url("/un-web-lib/css/img/mix-icon.gif") no-repeat 0 -470px;
+    outline: 0;
+    vertical-align: middle
+}
+
+#OptimizeMain .advice-block-hidden .ui-list {
+    display: none
+}
+
+#OptimizeMain .advice-block-hidden button.detail-switch-button {
+    background: url("/un-web-lib/css/img/mix-icon.gif") no-repeat 0 -450px
+}
+
+#OptRemindAllBtn {
+    position: absolute;
+    right: 20px;
+    top: 8px;
+    font-weight: normal;
+    line-height: 16px
+}
+
+#OptimizeMain .advice-block .ui-list {
+    margin: 0 10px 0 32px;
+    list-style: none;
+    line-height: 26px
+}
+
+#OptimizeMain .advice-block .ui-list a.first, #OverviewOptimizeAdvice .ui-list a.first {
+    margin-left: 10px
+}
+
+#OptimizeMain .advice-block .ui-list a, #OverviewOptimizeAdvice .ui-list a {
+    margin: 0 5px
+}
+
+#OptimizeMain .advice-block .ui-list .separator, #OverviewOptimizeAdvice .ui-list .separator {
+    color: #ccc
+}
+
+#OptimizeMain .advice-block .ui-list li.grade-3, #OverviewOptimizeAdvice .ui-list li.grade-3 {
+    color: #d66
+}
+
+#AdviceBlock {
+    border-top: 1px solid #ccc;
+    color: #666
+}
+
+#AdviceBlock th, #AdviceBlock td {
+    padding: 10px
+}
+
+#AdviceBlock th {
+    width: 70px;
+    padding-right: 0;
+    vertical-align: top;
+    font-weight: bold
+}
+
+#AdviceBlock td {
+    padding-left: 0
+}
+
+#AdviceBlock thead th, #AdviceBlock thead td {
+    background: #fff7cc
+}
+
+#AdviceBlock li {
+    margin-bottom: 10px
+}
+
+#AdviceBlock tbody th, #AdviceBlock tbody td {
+    padding-bottom: 0
+}
+
+#OptimizeStep {
+    line-height: 30px;
+    margin-left: 20px;
+    padding: 10px 0;
+    height: 30px
+}
+
+#OptimizeStep span {
+    float: left
+}
+
+#OptimizeStep span.title {
+    color: #666
+}
+
+#OptimizeStep span.left-border {
+    width: 3px;
+    height: 30px;
+    background: url(/un-web-lib/css/img/step-dec-left.gif)
+}
+
+#OptimizeStep span.right-border {
+    margin-right: 10px;
+    width: 3px;
+    height: 30px;
+    background: url(/un-web-lib/css/img/step-dec-right.gif)
+}
+
+#OptimizeStep ul {
+    float: left;
+    list-style: none;
+    height: 30px;
+    background: url(/un-web-lib/css/img/step-dec-mid.gif) repeat-x
+}
+
+#OptimizeStep ul li {
+    float: left;
+    padding: 0 10px 0 5px
+}
+
+#OptimizeStep ul li.next {
+    padding-left: 20px;
+    background: url(/un-web-lib/css/img/step-dec-arrow.gif) no-repeat left top
+}
+
+#OptimizeMain .business-hint {
+    position: relative;
+    zoom: 1;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border-top: 1px solid #ccc
+}
+
+#OptimizeMain .business-hint ul {
+    margin: 10px 0
+}
+
+#OptimizeMain .business-hint li {
+    list-style: inside;
+    margin: 5px 15px
+}
+
+#OptimizeMain .business-hint .extra {
+    position: absolute;
+    right: 10px;
+    bottom: 10px
+}
+
+#OptimizeMain .quality-icon {
+    background: url(/un-web-lib/css/img/mix-icon.gif) no-repeat
+}
+
+#OptimizeMain .quality-icon-low .quality-icon {
+    background-position: 0 -600px
+}
+
+#OptimizeMain .quality-icon-medium .quality-icon {
+    background-position: 0 -616px
+}
+
+#OptimizeMain .quality-icon-high .quality-icon {
+    background-position: 0 -632px
+}
+
+.skin-layer-quality-detail {
+    background: #fff;
+    border: 1px solid #ddd
+}
+
+.skin-layer-quality-detail th, .skin-layer-quality-detail td {
+    height: 29px;
+    line-height: 29px;
+    padding: 0 10px;
+    border-bottom: 1px solid #ddd
+}
+
+.skin-layer-quality-detail th {
+    text-align: left
+}
+
+.skin-layer-quality-detail thead th {
+    background: #f4f4f4;
+    font-weight: bold
+}
+
+.skin-layer-quality-detail .footnote {
+    height: 29px;
+    line-height: 29px;
+    padding: 0 10px
+}
+
+.skin-layer-quality-detail .footnote .more {
+    float: right
+}
+
+.skin-layer-quality-detail tr.test-status-1 td {
+    color: #060
+}
+
+.skin-layer-quality-detail tr.test-status-0 td {
+    color: #f90
+}
+
+.skin-layer-quality-detail span.remark {
+    color: #f00
+}
+
+.ui-mmcal {
+    color: #666;
+    padding: 5px 10px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f4f4f4));
+    background: -moz-linear-gradient(top, #fff, #f4f4f4);
+    background-color: #fafafa
+}
+
+.ui-mmcal-option-selected {
+    font-weight: bold
+}
+
+.ui-mmcal-option {
+    margin: 0 2px
+}
+
+.ui-month {
+    border: 1px solid #ccced4;
+    font-size: 13px
+}
+
+.ui-month-over {
+    background: #fcf8bb
+}
+
+.ui-month-item-range1 {
+    background: #e4eaf8
+}
+
+.ui-month-item-range2 {
+    background: #ffdfd4
+}
+
+.ui-month-item-range3 {
+    background: #efb3a8
+}
+
+.ui-unreportmcal {
+    background: #fff;
+    border: 1px solid #a8adb6;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    width: 180px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    cursor: pointer;
+    text-align: left;
+    -moz-user-select: none;
+    -webkit-user-select: none
+}
+
+.ui-unreportmcal-arrow {
+    margin: 11px 5px 0 0;
+    float: right;
+    font-size: 1px;
+    width: 9px;
+    height: 5px;
+    background: url(/un-web-lib/css/img/esui.png) -16px -93px
+}
+
+.ui-unreportmcal-active .ui-unreportmcal-arrow {
+    background-position: -16px -88px
+}
+
+.ui-unreportmcal-text {
+    padding-left: 4px;
+    width: 180px;
+    float: left;
+    font-weight: bold
+}
+
+.ui-unreportmcal-shortcuttext {
+    padding-left: 4px;
+    float: left;
+    font-weight: bold;
+    margin-right: 10px
+}
+
+.ui-unreportmcal-layer {
+    padding: 0;
+    border: 1px solid #ccc;
+    background: #f9f9f9;
+    width: 672px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    box-shadow: 0 2px 5px #d7d7d7
+}
+
+.ui-unreportmcal-layer p {
+    cursor: default
+}
+
+.ui-unreportmcal-board .ui-button {
+    background: url(/un-web-lib/css/img/esui.png);
+    border: 1px solid #ccc;
+    padding: 0;
+    margin-right: 2px;
+    filter: none;
+    -ms-filter: none;
+    overflow: hidden
+}
+
+.ui-unreportmcal-board .skin-button-back {
+    height: 20px;
+    width: 20px;
+    background: url(/un-web-lib/css/img/esui.png) 0 -200px;
+    font-size: 1px
+}
+
+.ui-unreportmcal-board .skin-button-forward {
+    height: 20px;
+    width: 20px;
+    background: url(/un-web-lib/css/img/esui.png) -20px -200px;
+    font-size: 1px
+}
+
+.ui-unreportmcal-board .skin-button-forward-press {
+    background: url(/un-web-lib/css/img/esui.png) -20px -220px
+}
+
+.ui-unreportmcal-board .skin-button-forward-disabled {
+    background: url(/un-web-lib/css/img/esui.png) -20px -240px;
+    cursor: default
+}
+
+.ui-unreportmcal-board .skin-button-back-press {
+    background: url(/un-web-lib/css/img/esui.png) 0 -220px
+}
+
+.ui-unreportmcal-board .skin-button-back-disabled {
+    background: url(/un-web-lib/css/img/esui.png) 0 -240px;
+    cursor: default
+}
+
+.skin-button-layerclose {
+    top: 8px
+}
+
+.ui-unreportmcal-board .ui-select-text {
+    padding: 0
+}
+
+.ui-unreportmcal-side-title {
+    font-size: 12px;
+    height: 18px;
+    padding-top: 10px
+}
+
+.ui-unreportmcal-side-title b {
+    padding-right: 5px
+}
+
+.ui-unreportmcal-side-func {
+    height: 28px;
+    background: -moz-linear-gradient(#fff, #f4f4f4);
+    background: -ms-linear-gradient(#fff, #f4f4f4);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fff), color-stop(100%, #f4f4f4));
+    background: -webkit-linear-gradient(#fff, #f4f4f4);
+    background: -o-linear-gradient(#fff, #f4f4f4);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ffffff', endColorstr = '#f4f4f4');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',endColorstr='#f4f4f4')";
+    background: linear-gradient(#fff, #f4f4f4);
+    background-color: #ccced4;
+    border: solid 1px #ccc;
+    border-bottom: 0
+}
+
+.ui-unreportmcal-side-func table {
+    width: 210px
+}
+
+.ui-unreportmcal-side-func table td {
+    padding: 3px
+}
+
+.ui-unreportmcal-begin, .ui-unreportmcal-end {
+    width: 210px;
+    float: left
+}
+
+.ui-unreportmcal-begin {
+    margin-right: 10px
+}
+
+.ui-unreportmcal-layer .ui-month table {
+    border: 0;
+    border-top: 1px solid #fff;
+    width: 208px;
+    _width: 210px
+}
+
+.ui-unreportmcal-foot {
+    clear: both;
+    padding-top: 55px
+}
+
+.ui-unreportmcal-foot .ui-button {
+    margin-right: 6px
+}
+
+.ui-unreportmcal-mainboard {
+    width: 662px;
+    padding: 0 10px 0 0;
+    border-top: solid 1px #ccc
+}
+
+.ui-unreportmcal-board {
+    border-right: solid 1px #ccc;
+    width: 430px;
+    padding: 0 10px 10px 10px;
+    background-color: #FFF;
+    float: left
+}
+
+.ui-unreportmcal-tab {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+.ui-unreportmcal-tab li {
+    width: 222px;
+    _width: 215px;
+    height: 38px;
+    padding: 6px 0;
+    position: relative;
+    border-left: none;
+    left: -1px;
+    top: -1px
+}
+
+.ui-unreportmcal-tab .ui-unreportmcal-active {
+    border: solid 1px #ccc;
+    border-left: none;
+    background-color: #FFF
+}
+
+.ui-unreportmcal-tab p {
+    margin: 0;
+    padding: 2px 6px;
+    font-size: 12px;
+    color: #323232
+}
+
+.ui-unreportmcal-tab .hint {
+    visibility: hidden
+}
+
+.ui-unreportmcal-active .hint {
+    visibility: visible
+}
+
+.ui-unreportmcal-btn {
+    height: 30px;
+    width: 110px;
+    position: relative;
+    text-align: right
+}
+
+.ui-unreportmcal-cmp {
+    width: 245px;
+    height: 50px
+}
+
+.ui-unreportmcal-text {
+    width: 155px;
+    padding-left: 8px
+}
+
+.ui-unreportmcal-text p {
+    padding: 0;
+    margin: 0;
+    line-height: 14px
+}
+
+.ui-unreportmcal-shortcuttext {
+    font-weight: normal;
+    margin-right: 0
+}
+
+table.register-form input.input-text {
+    width: 260px;
+    height: 24px;
+    margin-right: 5px;
+    vertical-align: middle
+}
+
+table.register-form textarea {
+    width: 260px;
+    height: 64px;
+    font-size: 12px
+}
+
+table.register-form .ui-textarea-layout {
+    width: 260px
+}
+
+.hidden {
+    display: none
+}
+
+.error input.input-text, .error textarea {
+    border-color: red
+}
+
+div.widget h3 {
+    font-size: 14px;
+    line-height: 35px
+}
+
+span.optional-tag {
+    color: #999
+}
+
+.ui-selectgroup .ui-select {
+    margin-right: 4px
+}
+
+#SiteVerifyWidget {
+    padding: 0
+}
+
+#SiteVerifyWidgetDomainBlock button.verify {
+    line-height: 16px;
+    padding: 0;
+    vertical-align: top
+}
+
+#SiteVerifyWidgetDomainBlock .domain-block p.edit {
+    display: none
+}
+
+#SiteVerifyWidgetDomainBlock .domain-block p.display span.status-complete {
+    display: none;
+    color: #090;
+    font-weight: bold
+}
+
+#SiteVerifyWidgetDomainBlock.inputing .domain-block p.display {
+    display: none
+}
+
+#SiteVerifyWidgetDomainBlock.inputing .domain-block p.edit {
+    display: block
+}
+
+#SiteVerifyWidgetDomainBlock.verifying #ctrlValidityShowersiteVerifyWidgetDomainInfoHandler {
+    width: 490px;
+    background: url(/un-web-lib/css/img/newui-cloud.gif) repeat-x 0 -145px
+}
+
+#SiteVerifyChedking, #SiteVerifyTip {
+    color: #fa0;
+    margin-bottom: 8px
+}
+
+#SiteVerifyBlock p.operation {
+    height: 25px;
+    padding: 5px 20px
+}
+
+#SiteVerifyBlock p.operation button {
+    margin-right: 10px
+}
+
+#SiteVerifyWidgetDomainBlock.verifying .verify-block {
+    display: block
+}
+
+#SiteVerifyWidgetDomainBlock.verifying .domain-block {
+    border: 1px solid #a8adb6;
+    border-bottom: 0
+}
+
+#SiteVerifyWidgetDomainBlock.complete .domain-block p.display span.status-complete {
+    display: inline
+}
+
+#SiteVerifyWidgetDomainBlock.complete .info-wrap {
+    display: none
+}
+
+#SiteVerifyWidgetDomainBlock .verify-block {
+    display: none;
+    padding-top: 5px;
+    border: 1px solid #a8adb6;
+    border-top: 0
+}
+
+#SiteVerifyWidgetDomainBlock .verify-block .tab-switch-group {
+    height: 24px;
+    padding-left: 10px;
+    border-bottom: 1px solid #a8adb6
+}
+
+#SiteVerifyWidgetDomainBlock .verify-block .ui-tab-item {
+    float: left;
+    height: 16px;
+    line-height: 16px;
+    margin: 0 5px 0 0;
+    padding: 4px 9px 3px;
+    _padding: 4px 9px;
+    border: 1px solid #a8adb6;
+    border-bottom: 0;
+    background: url("/un-web-lib/css/img/esui.png") repeat-x 0 -40px;
+    color: #999;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-border-radius: 3px 3px 0 0;
+    -moz-border-radius: 3px 3px 0 0
+}
+
+#SiteVerifyWidgetDomainBlock .verify-block .ui-tab-item-active {
+    padding: 4px 10px;
+    background: #fff;
+    color: #333;
+    font-weight: bold;
+    cursor: default;
+    position: relative;
+    z-index: 10
+}
+
+#SiteVerifyWidgetDomainBlock.verifying p.display {
+    padding: 5px 20px;
+    color: #f60
+}
+
+#SiteVerifyWidgetDomainBlock.complete p.display {
+    color: #f60
+}
+
+#SiteVerifyWidgetVerifyMethodContent {
+    clear: both;
+    padding: 10px 15px 0 15px;
+    background: #fff;
+    zoom: 1
+}
+
+#SiteVerifyWidgetVerifyMethodContent .tab-content-group .tab-content {
+    display: none
+}
+
+#SiteVerifyWidgetVerifyMethodContent .tab-content-group .tab-content.active {
+    display: block
+}
+
+#SiteVerifyWidgetVerifyMethodContent ul {
+    list-style: none
+}
+
+#SiteVerifyWidgetVerifyMethodContent .tab-content li, #SiteVerifyWidgetVerifyMethodContent .tab-content p {
+    line-height: 1.8em
+}
+
+#SiteVerifyWidgetVerifyMethodContent .tab-content li {
+    padding: 3px 0;
+    border-bottom: 1px solid #efefef
+}
+
+#SiteVerifyWidgetVerifyMethodContent .tab-content li span {
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    display: inline-block;
+    background: url(/un-web-lib/css/img/newui-cloud.gif) no-repeat 0 -253px;
+    color: #4f83b8;
+    font-weight: bold;
+    text-align: center;
+    line-height: 18px
+}
+
+#SiteVerifyWidgetVerifyMethodContent p.opt {
+    height: 30px;
+    margin: 0 -15px;
+    padding: 5px 15px 0;
+    border-top: 1px solid #efefef;
+    background: url(/un-web-lib/css/img/newui-cloud.gif) repeat-x 0 -214px
+}
+
+#SiteVerifyWidgetVerifyMethodContent p.extra {
+    line-height: 30px;
+    color: #999
+}
+
+#SiteVerifyWidgetVerifyMethodContent a.support-link {
+    font-family: "宋体"
+}
+
+#SiteVerifyWidgetVerifyFileDownloadUrl {
+    vertical-align: middle
+}
+
+#SiteVerifyWidgetDomainDisplay {
+    font: bold 14px Arial
+}
+
+#SiteVerifyWidgetVerifyMethodHTMLCode {
+    width: 400px;
+    height: 60px;
+    font-size: 12px;
+    font-family: "宋体"
+}
+
+#SiteVerifyWidgetDomainBlock.verifying q {
+    display: none
+}
+
+#SiteVerifyWidgetDomainBlock.complete .domain-block p.display q {
+    display: none
+}
+
+#VerifySiteInfoBlock div.info-complete, #VerifySiteInfoBlock div.info-verifying {
+    margin-bottom: 10px
+}
+
+#VerifySiteInfoBlock div.info-complete p.complete {
+    display: block
+}
+
+#VerifySiteInfoBlock div.info-complete p.verifying {
+    display: none
+}
+
+#VerifySiteInfoBlock div.info-verifying p.verifying {
+    display: block
+}
+
+#VerifySiteInfoBlock div.info-verifying p.complete {
+    display: none
+}
+
+#SiteVerifyWidgetSiteTypeBlock select.option-null {
+    display: none
+}
+
+.widget table.register-form th {
+    font-size: 14px;
+    font-weight: normal;
+    padding: 8px 0 5px 36px;
+    text-align: left;
+    vertical-align: top;
+    width: 150px
+}
+
+.widget table.register-form td {
+    padding: 5px 0
+}
+
+#CproJoinedUrlBlock, #SearchJoinedUrlBlock {
+    padding: 0 15px 100px 15px
+}
+
+.appWidget-desc {
+    height: 42px
+}
+
+.skin-radiobox-app-platform-radio-ios-label, .skin-radiobox-app-platform-radio-android-label {
+    height: 26px;
+    line-height: 34px;
+    display: inline-block;
+    display: *block;
+    zoom: 1;
+    padding: 0 22px 0 36px;
+    vertical-align: text-bottom;
+    background-image: url(/un-web-lib/css/img/sdk.png);
+    background-repeat: no-repeat
+}
+
+.skin-radiobox-app-platform-radio-ios-label {
+    background-position: 0 0
+}
+
+.skin-radiobox-app-platform-radio-android-label {
+    background-position: 0 -27px
+}
+
+div.info-wrap p.ui-validityshower-info-ios, div.info-wrap p.ui-validityshower-info-android, .input-bar div.info-wrap p.ui-validityshower-info-ios, .input-bar div.info-wrap p.ui-validityshower-info-android {
+    display: none
+}
+
+div.appWidget-platformStatus-ios p.ui-validityshower-info-ios, div.appWidget-platformStatus-android p.ui-validityshower-info-android, div.appWidget-platformStatus-ios .input-bar p.ui-validityshower-info-ios, div.appWidget-platformStatus-android .input-bar p.ui-validityshower-info-android {
+    display: block
+}
+
+p.optional-tag-block {
+    line-height: 14px
+}
+
+.ui-textarea-wrap img.ui-validityshower-success {
+    vertical-align: baseline
+}
+
+.component-neiwenRecommend.ui-dialog {
+    background-color: transparent;
+    border: 0
+}
+
+.component-neiwenRecommend .ui-dialog-head {
+    background-coloe: transparent;
+    background-image: url(img/neiwen-header.png);
+    background-repeat: no-repeat;
+    filter: alpha(opacity = 100);
+    height: 83px;
+    border: 0
+}
+
+.component-neiwenRecommend .ui-dialog-title {
+    display: none
+}
+
+.component-neiwenRecommend .skin-button-layerclose {
+    top: 20px;
+    width: 14px;
+    height: 14px;
+    background: transparent;
+    border: 0
+}
+
+.component-neiwenRecommend-body {
+    width: 100%;
+    background: #fff;
+    border-radius: 0 0 4px 4px;
+    padding: 0;
+    padding-top: 30px;
+    border-bottom: 5px solid #336ef4
+}
+
+.component-neiwenRecommend-body ul {
+    list-style: none;
+    color: #062570
+}
+
+.component-neiwenRecommend-body li {
+    padding: 24px 60px 24px 125px
+}
+
+.component-neiwenRecommend-body li:hover {
+    background-color: #f5f5f5
+}
+
+.component-neiwenRecommend-body p {
+    font-size: 12px;
+    line-height: 18px
+}
+
+.component-neiwenRecommend-body h5 {
+    font-size: 14px;
+    line-height: 20px
+}
+
+.component-neiwenRecommend-body .info-1 {
+    background: #fff url(img/neiwen1.png) 60px center no-repeat
+}
+
+.component-neiwenRecommend-body .info-2 {
+    background: #fff url(img/neiwen2.png) 64px center no-repeat
+}
+
+.component-neiwenRecommend-body .info-3 {
+    background: #fff url(img/neiwen3.png) 64px center no-repeat
+}
+
+.component-neiwenRecommend-body .info-4 {
+    background: #fff url(img/neiwen4.png) 67px center no-repeat
+}
+
+.neiwenRecommend-opt {
+    text-align: center;
+    margin: 0 auto 30px
+}
+
+.neiwenRecommend-btn, .neiwenRecommend-btn.ui-button-hover {
+    border: 0;
+    width: 91px;
+    height: 64px;
+    background: url(img/neiwen-btn.png) no-repeat;
+    margin: 0 auto;
+    padding: 0;
+    text-indent: -10000px
+}

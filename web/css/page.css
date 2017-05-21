@@ -1,0 +1,27 @@
+.pageblk {
+    text-align: center;
+    margin-top: 20px;
+    margin: 0 auto;
+    padding-top:5px;padding-bottom:10px;
+}
+
+.pageblk a, .pageblk a:visited, .pageblk .on {
+    border: 1px solid #c4c4c4;
+    background: #E9E9E9;
+    padding: 2px 4px 2px 4px;
+    /*padding-bottom: 5px;*/
+    color: #666;
+}
+
+.pageblk a:hover {
+    background: #0589CF;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.pageblk .on {
+    background: #0589CF;
+    color: #FFF;
+    font-weight: bold;
+}
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <config id="default">
+        <property name="cache">false</property>
+        <property name="local">true</property>
+    </config>
+
+    <config id="checkbox">
+        <property name="cache">false</property>
+        <property name="local">true</property>
+        <property name="template">DictionaryListTag_checkbox.ftl</property>
+    </config>
+    <config id="radio">
+        <property name="cache">false</property>
+        <property name="local">true</property>
+        <property name="template">DictionaryListTag_radio.ftl</property>
+    </config>
+
+</config>

@@ -1,0 +1,84 @@
+﻿.banner0 {background-color:#f6efe4}
+.banner1 {background-color:#ECEDF2}
+.weibo_one{width:100%; height:auto; margin:0px auto;background-color:#FFF;}
+.weibo_two{width:100%; height:auto; margin:0px auto;background-color:#f3f3f3;}
+.weibo_three{width:100%; height:auto; margin:0px auto;background-color:#ff4a00;}
+.weibo_one h3,.weibo_two h3,.weibo_three h3{width:100%; height:60px; line-height:60px; text-align:center; font-size:28px;}
+.weibo_titico1{ background-position:center 0px;}
+.weibo_titico2{ background-position:center -60px;}
+.weibo_titico3{ background-position:center -120px;}
+.weibo_titico4{ background-position:center -180px;}
+.weibo_titico5{ background-position:center -240px;}
+.weibo_titico6{ background-position:center -300px;}
+.weibo_titico7{ background-position:center -360px;}
+.weibo_titico8{ background-position:center -420px;}
+/* begin*/
+.part1_list{ overflow:hidden; width:1100px; margin:0 auto;}
+.part1_list dt{overflow:hidden;float:right;width:502px; padding:0px 0px 0px 60px;}
+.part1_list dd{ padding:20px 0px 0px;}
+.part1_list dd h4{font-size:15px; line-height:30px;}
+.part1_list dd h4 b{font-weight:bold;color:#000;}
+.part1_list dd p{line-height:36px;font-size:16px; text-indent:2em;}
+/* end*/
+/* begin*/
+.part3_adv{ overflow:hidden; width:1050px; margin:0 auto}
+.part3_adv li{float:left;width:230px; min-height:140px; text-align:left;padding:140px 20px 15px;background:url(/img/wei_part3.png) no-repeat; display:inline;}
+.part3_adv li h4{ text-align:center; font-size:20px; font-weight:bold; line-height:50px;}
+.part3_adv li.pa_ico1{ background-position:0px 0px;}
+.part3_adv li.pa_ico2{ background-position:-300px 0px; margin:0 75px;}
+.part3_adv li.pa_ico3{ background-position:-600px 0px;}
+/* end*/
+/*合作伙伴 begin*/
+.coopera{padding:30px 0 0px 2px;overflow:hidden;}
+.coopera ul{border-bottom:1px solid #ccc;border-left:1px solid #ccc;overflow:hidden;}
+.coopera li{border-right:1px solid #ccc;border-top:1px solid #ccc;float:left; padding:10px 15px 10px 16px; width:90px; background:#fff;}
+.coopera li img{width:90px;height:90px;}
+.coopera li a{width:90px;height:90px;display:block;}
+.coopera li a:hover{display:block;-moz-opacity:0.8; filter:alpha(opacity=80);-khtml-opacity: 0.8; opacity: 0.8;}
+/*合作伙伴 end*/
+/* begin*/
+dl.weibo_star{overflow:hidden;width:580px;}
+dl.weibo_star dt{width: 100%;color: #f00;text-align:left;border-bottom: 1px solid #CCC;padding-bottom: 2px;font-size: 16px; height:34px; line-height:34px; font-weight:bold;}
+dl.weibo_star dd{float:left; width:100px; height:148px; padding:15px 0px 0px 20px;}
+dl.weibo_star dd a:hvoer{text-decoration:none;}
+dl.weibo_star dd h3{height: 30px;line-height: 30px;font-weight: bold; text-align:left; font-size:14px;}
+dl.weibo_star dd p{height: 20px;line-height:20px;text-align:left; font-size:12px;}
+dl.weibo_star dd p span{ color:#CE0000}
+dl.weibo_star dd img{width:100px; height:100px;}
+dl.weibo_star dd.ddRight{padding:15px 0px 0px 0px;}
+.news_li{overflow:hidden; padding:20px 30px 0px 0px;}
+.news_li li span{ font-size:20px; font-weight:bold; padding:0px 5px;}
+.news_li li{ line-height:34px; font-size:15px; padding-left:30px; background: url(images/ico_bg.png) no-repeat left 5px;}
+/* end*/
+/*案例 begin*/
+.weibo_case,.weibo_case ul,.weibo_case ul li{height:320px;}
+.weibo_case {overflow:hidden; position:relative;}
+.weibo_case ul {position:absolute;}
+.weibo_case ul li {float:left; width:1080px; overflow:hidden; position:relative; padding:0px 60px;}
+.weibo_case .btnBg {position:absolute; width:800px; height:20px; left:0; bottom:0; background:#000; display:none;}
+.weibo_case .btn {position:absolute; width:780px; height:23px; padding:0px 80px 0px 10px; right:0; bottom:10px; text-align:right;}
+.weibo_case .btn span {display:inline-block; _display:inline; _zoom:1; width:25px; height:24px; line-height:24px; text-align:center; _font-size:0; margin-left:5px; cursor:pointer; background:#000; color:#fff;}
+.weibo_case .btn span.on {background:#000;}
+.weibo_case .preNext {width:45px; height:100px; position:absolute; top:110px; background:url(news/sprite.png) no-repeat 0 0; cursor:pointer;}
+.weibo_case .pre {left:0;}
+.weibo_case .next {right:0; background-position:right top;}
+.post_body {background: #FFFFFF;padding:30px;line-height: 22px;height:258px; overflow:hidden;}
+.post_body h2 {font-size: 20px;line-height: 40px;color: #C30; font-weight:bold;}
+.post_content {}
+.post_info {height: 30px;line-height: 30px;text-align: right;margin-top: 10px;}
+
+.tip_top90{ width:350px;top: 105px;left: 10px;}
+.post_content dl{ overflow:hidden;}
+.post_content dt{overflow:hidden;float:right;width:325px; padding:0px 0px 0px 15px;}
+.post_content dt img{ border:1px solid #ddd; width:320px;}
+.post_content dd{ padding:5px 0px 0px;}
+.post_content dd h3{font-weight:bold;color:#000; font-size:16px;}
+.post_content dd p{line-height:24px;font-size:14px; text-indent:2em;}
+.post_content dd h4{font-size:15px; line-height:30px;}
+.post_content dd h4 b{font-weight:bold;color:#000;}
+/*案例 end*/
+/* begin*/
+/* end*/
+/* begin*/
+/* end*/
+/* begin*/
